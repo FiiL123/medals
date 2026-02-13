@@ -36,11 +36,21 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            height: 100%;
+            overflow: hidden;
         }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background: var(--secondary);
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         header {
@@ -51,6 +61,7 @@
             position: sticky;
             top: 0;
             z-index: 1000;
+            flex-shrink: 0;
         }
 
         .header-content {
@@ -156,6 +167,34 @@
             transform: translateX(22px);
         }
 
+        .toggle-switch::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0.875rem;
+            pointer-events: none;
+            z-index: 1;
+            display: none;
+        }
+
+        .header-collapse-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.25rem;
+            border-radius: var(--radius-sm);
+            transition: var(--transition);
+        }
+
+        .header-collapse-btn:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
         .search-container {
             position: relative;
             flex: 1;
@@ -206,9 +245,16 @@
             gap: 0.25rem;
         }
 
+        @media (min-width: 481px) {
+            .header-collapse-btn {
+                display: none !important;
+            }
+        }
+
         #map-container {
-            height: calc(100vh - 160px);
+            flex: 1;
             width: 100%;
+            min-height: 0;
         }
 
         .popup-card {
@@ -312,6 +358,30 @@
             flex-wrap: wrap;
         }
 
+        @media (max-width: 480px) {
+            .medal-breakdown {
+                display: flex;
+                gap: 0.375rem;
+                overflow-x: auto;
+                padding-bottom: 0.25rem;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .medal-breakdown::-webkit-scrollbar {
+                height: 4px;
+            }
+
+            .medal-breakdown::-webkit-scrollbar-track {
+                background: rgba(0,0,0,0.05);
+                border-radius: 2px;
+            }
+
+            .medal-breakdown::-webkit-scrollbar-thumb {
+                background: rgba(0,0,0,0.2);
+                border-radius: 2px;
+            }
+        }
+
         .medal-item {
             text-align: center;
             padding: 0.5rem;
@@ -382,11 +452,16 @@
             transition: var(--transition);
             border: none;
             cursor: pointer;
+            min-height: 40px;
         }
 
         .result-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .result-btn:active {
+            transform: translateY(0);
         }
 
         .result-btn::after {
@@ -486,6 +561,14 @@
                 align-items: stretch;
             }
 
+            .medal-toggles .control-group label {
+                display: flex;
+            }
+
+            .medal-toggles .toggle-switch::before {
+                content: none;
+            }
+
             select {
                 flex: 1;
                 min-width: auto;
@@ -497,11 +580,451 @@
             }
 
             #map-container {
-                height: calc(100vh - 260px);
+                flex: 1;
+                min-height: 0;
             }
 
             .popup-card {
                 min-width: 260px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding-left: env(safe-area-inset-left);
+                padding-right: env(safe-area-inset-right);
+            }
+
+            header {
+                padding: 0.5rem;
+                padding-top: calc(0.5rem + env(safe-area-inset-top, 0px));
+                transition: var(--transition);
+            }
+
+            header.collapsed {
+                padding-bottom: 0.5rem;
+            }
+
+            header.collapsed .controls,
+            header.collapsed .medal-toggles {
+                display: none;
+            }
+
+            header.collapsed .header-top {
+                gap: 0.5rem;
+            }
+
+            .header-content {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            h1::before {
+                font-size: 0.875rem;
+            }
+
+            .header-top {
+                gap: 0.5rem;
+            }
+
+            .header-collapse-btn {
+                display: block;
+            }
+
+            .controls {
+                gap: 0.5rem;
+                transition: var(--transition);
+            }
+
+            .control-group {
+                flex-direction: row;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+            .control-group label {
+                font-size: 0.75rem;
+                flex-shrink: 0;
+            }
+
+            select {
+                padding: 0.5rem 0.75rem;
+                font-size: 0.875rem;
+                min-height: 36px;
+            }
+
+            .toggle-switch {
+                width: 52px;
+                height: 28px;
+                flex-shrink: 0;
+            }
+
+            .toggle-switch::after {
+                width: 22px;
+                height: 22px;
+            }
+
+            .toggle-switch.active::after {
+                transform: translateX(24px);
+            }
+
+            .medal-toggles {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0.5rem;
+            }
+
+            .medal-toggles .control-group {
+                text-align: center;
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .medal-toggles .control-group label {
+                display: block;
+                font-size: 1.25rem;
+                line-height: 1;
+            }
+
+            .medal-toggles .toggle-switch::before {
+                display: none;
+            }
+
+            .search-input {
+                padding: 0.5rem 0.875rem 0.5rem 2rem;
+                font-size: 0.875rem;
+                min-height: 36px;
+            }
+
+            .search-icon {
+                left: 0.75rem;
+                font-size: 0.75rem;
+            }
+
+            #map-container {
+                flex: 1;
+                min-height: 0;
+            }
+
+            .popup-card {
+                min-width: unset;
+                width: 90vw;
+                max-width: 320px;
+                max-height: 60vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .popup-header {
+                padding: 0.625rem;
+                flex-shrink: 0;
+            }
+
+            .country-flag {
+                font-size: 1.25rem;
+            }
+
+            .country-name {
+                font-size: 0.875rem;
+            }
+
+            .ranking-badge {
+                font-size: 0.625rem;
+                padding: 0.125rem 0.375rem;
+            }
+
+            .popup-content {
+                padding: 0.625rem;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .popup-content::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            .popup-content::-webkit-scrollbar-track {
+                background: rgba(0,0,0,0.05);
+                border-radius: 3px;
+            }
+
+            .popup-content::-webkit-scrollbar-thumb {
+                background: rgba(0,0,0,0.2);
+                border-radius: 3px;
+            }
+
+            .popup-content::-webkit-scrollbar-thumb:hover {
+                background: rgba(0,0,0,0.3);
+            }
+
+            .medal-badge {
+                padding: 0.375rem 0.5rem;
+                font-size: 0.75rem;
+            }
+
+            .olympiad-section {
+                padding: 0.5rem;
+            }
+
+            .olympiad-header {
+                margin-bottom: 0.375rem;
+            }
+
+            .olympiad-title {
+                font-size: 0.6875rem;
+            }
+
+            .olympiad-rank {
+                font-size: 0.625rem;
+                padding: 0.125rem 0.375rem;
+            }
+
+            .medal-breakdown {
+                gap: 0.375rem;
+            }
+
+            .medal-item {
+                padding: 0.375rem;
+                min-width: 50px;
+            }
+
+            .medal-item .medal-icon {
+                font-size: 0.875rem;
+            }
+
+            .medal-item .medal-count {
+                font-size: 0.875rem;
+            }
+
+            .medal-item .medal-label {
+                font-size: 0.5625rem;
+            }
+
+            .view-results-title {
+                font-size: 0.625rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .results-buttons {
+                gap: 0.375rem;
+            }
+
+            .result-btn {
+                padding: 0.375rem 0.75rem;
+                font-size: 0.75rem;
+                min-height: 36px;
+            }
+
+            .legend {
+                padding: 0.5rem;
+                font-size: 0.6875rem;
+            }
+
+            .legend-title {
+                font-size: 0.625rem;
+            }
+
+            .legend-gradient {
+                width: 120px;
+                height: 24px;
+            }
+
+            .legend-label {
+                font-size: 0.625rem;
+                padding: 0 0.375rem;
+            }
+
+            .legend-value {
+                font-size: 0.625rem;
+            }
+
+            .leaflet-bottom .leaflet-control {
+                margin-bottom: env(safe-area-inset-bottom, 10px);
+            }
+
+            .leaflet-bottomleft .legend {
+                margin-left: 10px;
+            }
+        }
+
+        .leaflet-popup-close-button {
+            width: 28px !important;
+            height: 28px !important;
+            font-size: 20px !important;
+            line-height: 28px !important;
+            padding: 0 !important;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.1) !important;
+            transition: var(--transition);
+        }
+
+        .leaflet-popup-close-button:hover {
+            background: rgba(0,0,0,0.2) !important;
+        }
+
+        @media (max-width: 480px) {
+            .leaflet-popup-close-button {
+                width: 36px !important;
+                height: 36px !important;
+                font-size: 24px !important;
+                line-height: 36px !important;
+                top: -12px !important;
+                right: -12px !important;
+            }
+        }
+
+        @media (max-height: 500px) and (orientation: landscape) {
+            header {
+                padding: 0.5rem;
+                padding-top: calc(0.5rem + env(safe-area-inset-top, 0px));
+            }
+
+            h1 {
+                font-size: 1rem;
+            }
+
+            h1::before {
+                font-size: 0.75rem;
+            }
+
+            .header-top {
+                gap: 0.5rem;
+            }
+
+            .controls {
+                gap: 0.5rem;
+            }
+
+            .control-group {
+                flex-direction: row;
+            }
+
+            select {
+                padding: 0.5rem 0.75rem;
+                font-size: 0.75rem;
+                min-height: 36px;
+            }
+
+            .toggle-switch {
+                width: 44px;
+                height: 24px;
+            }
+
+            .toggle-switch::after {
+                width: 20px;
+                height: 20px;
+            }
+
+            .toggle-switch.active::after {
+                transform: translateX(20px);
+            }
+
+            .medal-toggles {
+                flex-direction: row;
+                gap: 1rem;
+            }
+
+            .medal-toggles .control-group {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .medal-toggles .control-group label {
+                display: block;
+                font-size: 1rem;
+                line-height: 1;
+            }
+
+            .medal-toggles .toggle-switch::before {
+                display: none;
+            }
+
+            .search-input {
+                padding: 0.5rem 0.875rem 0.5rem 2rem;
+                font-size: 0.75rem;
+                min-height: 36px;
+            }
+
+            #map-container {
+                flex: 1;
+                min-height: 0;
+            }
+
+            .popup-card {
+                max-width: 280px;
+                max-height: 60vh;
+            }
+
+            .popup-header {
+                padding: 0.5rem;
+            }
+
+            .country-flag {
+                font-size: 1.25rem;
+            }
+
+            .country-name {
+                font-size: 0.75rem;
+            }
+
+            .ranking-badge {
+                font-size: 0.5625rem;
+            }
+
+            .popup-content {
+                padding: 0.5rem;
+            }
+
+            .medal-badge {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.6875rem;
+            }
+
+            .olympiad-section {
+                padding: 0.375rem;
+            }
+
+            .olympiad-header {
+                margin-bottom: 0.25rem;
+            }
+
+            .olympiad-title {
+                font-size: 0.625rem;
+            }
+
+            .medal-item {
+                padding: 0.25rem;
+                min-width: 40px;
+            }
+
+            .medal-item .medal-icon {
+                font-size: 0.75rem;
+            }
+
+            .medal-item .medal-count {
+                font-size: 0.75rem;
+            }
+
+            .medal-item .medal-label {
+                font-size: 0.5rem;
+            }
+
+            .result-btn {
+                padding: 0.25rem 0.5rem;
+                font-size: 0.6875rem;
+                min-height: 32px;
+            }
+
+            .legend {
+                padding: 0.375rem;
+            }
+
+            .legend-gradient {
+                width: 100px;
+                height: 20px;
             }
         }
     </style>
@@ -511,6 +1034,7 @@
         <div class="header-content">
             <div class="header-top">
                 <h1>Olympiad Medals</h1>
+                <button class="header-collapse-btn" id="header-collapse-btn">☰</button>
                 <div class="controls">
                     <div class="control-group">
                         <label for="olympiad-select">Olympiad:</label>
@@ -528,15 +1052,15 @@
                 </div>
                 <div class="medal-toggles">
                     <div class="control-group">
-                        <label for="gold-toggle">🥇 Gold</label>
+                        <label for="gold-toggle">🥇</label>
                         <div id="gold-toggle" class="toggle-switch active"></div>
                     </div>
                     <div class="control-group">
-                        <label for="silver-toggle">🥈 Silver</label>
+                        <label for="silver-toggle">🥈</label>
                         <div id="silver-toggle" class="toggle-switch active"></div>
                     </div>
                     <div class="control-group">
-                        <label for="bronze-toggle">🥉 Bronze</label>
+                        <label for="bronze-toggle">🥉</label>
                         <div id="bronze-toggle" class="toggle-switch active"></div>
                     </div>
                 </div>
@@ -635,8 +1159,22 @@
                 });
         }
 
+        function isMobile() {
+            return window.innerWidth <= 480;
+        }
+
         function initializeMap() {
-            map = L.map('map-container').setView([20, 0], 2);
+            const initialView = isMobile() ? [20, 0] : [20, 0];
+            const initialZoom = isMobile() ? 1 : 2;
+            map = L.map('map-container', {
+                zoomControl: !isMobile()
+            }).setView(initialView, initialZoom);
+
+            if (isMobile()) {
+                L.control.zoom({
+                    position: 'bottomright'
+                }).addTo(map);
+            }
 
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -856,9 +1394,14 @@
                                 mouseout: resetHighlight,
                                 click: function(e) {
                                     const popupContent = createPopupContent(feature);
-                                    L.popup({
-                                        maxWidth: 320,
-                                        className: 'custom-popup'
+                                    const popup = L.popup({
+                                        maxWidth: isMobile() ? 300 : 320,
+                                        minWidth: isMobile() ? 200 : 280,
+                                        className: 'custom-popup',
+                                        autoPan: true,
+                                        autoPanPadding: isMobile() ? [50, 50] : [20, 20],
+                                        closeButton: true,
+                                        closeOnClick: isMobile()
                                     })
                                         .setLatLng(e.latlng)
                                         .setContent(popupContent)
@@ -902,7 +1445,7 @@
                 gradientColor = 'linear-gradient(to right, hsl(140, 80%, 95%), hsl(140, 80%, 20%))';
             }
             
-            const legend = L.control({position: 'bottomright'});
+            const legend = L.control({position: isMobile() ? 'bottomleft' : 'bottomright'});
             window.legendControl = legend;
             
             const maxLabel = showPerCapita ? maxValue.toFixed(1) : maxValue;
@@ -1009,6 +1552,27 @@
             updateGeoJSONStyle();
             createLegend();
         }
+
+        window.addEventListener('resize', function() {
+            setTimeout(function() {
+                if (map) {
+                    map.invalidateSize();
+                }
+            }, 100);
+        });
+
+        const headerCollapseBtn = document.getElementById('header-collapse-btn');
+        const header = document.querySelector('header');
+
+        headerCollapseBtn.addEventListener('click', function() {
+            header.classList.toggle('collapsed');
+            this.textContent = header.classList.contains('collapsed') ? '▼' : '☰';
+            setTimeout(function() {
+                if (map) {
+                    map.invalidateSize();
+                }
+            }, 350);
+        });
 
         loadMedalsData();
     </script>
