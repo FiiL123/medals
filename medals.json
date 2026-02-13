@@ -1,0 +1,4164 @@
+{
+  "countries": [
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "medals": {
+        "IMO": {
+          "gold": 88,
+          "silver": 161,
+          "bronze": 112,
+          "total": 361
+        },
+        "IOI": {
+          "gold": 38,
+          "silver": 60,
+          "bronze": 37,
+          "total": 135
+        },
+        "IPhO": {
+          "gold": 62,
+          "silver": 93,
+          "bronze": 62,
+          "total": 217
+        },
+        "combined": {
+          "gold": 188,
+          "silver": 314,
+          "bronze": 211,
+          "total": 713
+        }
+      },
+      "population": 19036031
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "medals": {
+        "IMO": {
+          "gold": 90,
+          "silver": 177,
+          "bronze": 117,
+          "total": 384
+        },
+        "IOI": {
+          "gold": 16,
+          "silver": 38,
+          "bronze": 52,
+          "total": 106
+        },
+        "IPhO": {
+          "gold": 45,
+          "silver": 70,
+          "bronze": 104,
+          "total": 219
+        },
+        "combined": {
+          "gold": 151,
+          "silver": 285,
+          "bronze": 273,
+          "total": 709
+        }
+      },
+      "population": 9539502
+    },
+    {
+      "code": "USA",
+      "name": "United States",
+      "medals": {
+        "IMO": {
+          "gold": 156,
+          "silver": 121,
+          "bronze": 30,
+          "total": 307
+        },
+        "IOI": {
+          "gold": 69,
+          "silver": 41,
+          "bronze": 17,
+          "total": 127
+        },
+        "IPhO": {
+          "gold": 83,
+          "silver": 51,
+          "bronze": 29,
+          "total": 163
+        },
+        "combined": {
+          "gold": 308,
+          "silver": 213,
+          "bronze": 76,
+          "total": 597
+        }
+      },
+      "population": 340110988
+    },
+    {
+      "code": "BGR",
+      "name": "Bulgaria",
+      "medals": {
+        "IMO": {
+          "gold": 57,
+          "silver": 133,
+          "bronze": 124,
+          "total": 314
+        },
+        "IOI": {
+          "gold": 29,
+          "silver": 57,
+          "bronze": 45,
+          "total": 131
+        },
+        "IPhO": {
+          "gold": 15,
+          "silver": 46,
+          "bronze": 89,
+          "total": 150
+        },
+        "combined": {
+          "gold": 101,
+          "silver": 236,
+          "bronze": 258,
+          "total": 595
+        }
+      },
+      "population": 6437360
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "medals": {
+        "IMO": {
+          "gold": 37,
+          "silver": 101,
+          "bronze": 144,
+          "total": 282
+        },
+        "IOI": {
+          "gold": 45,
+          "silver": 54,
+          "bronze": 36,
+          "total": 135
+        },
+        "IPhO": {
+          "gold": 24,
+          "silver": 52,
+          "bronze": 87,
+          "total": 163
+        },
+        "combined": {
+          "gold": 106,
+          "silver": 207,
+          "bronze": 267,
+          "total": 580
+        }
+      },
+      "population": 37392000
+    },
+    {
+      "code": "CHN",
+      "name": "China",
+      "medals": {
+        "IMO": {
+          "gold": 191,
+          "silver": 37,
+          "bronze": 6,
+          "total": 234
+        },
+        "IOI": {
+          "gold": 106,
+          "silver": 28,
+          "bronze": 12,
+          "total": 146
+        },
+        "IPhO": {
+          "gold": 155,
+          "silver": 22,
+          "bronze": 9,
+          "total": 186
+        },
+        "combined": {
+          "gold": 452,
+          "silver": 87,
+          "bronze": 27,
+          "total": 566
+        }
+      },
+      "population": 1408280000
+    },
+    {
+      "code": "DEU",
+      "name": "Germany",
+      "medals": {
+        "IMO": {
+          "gold": 54,
+          "silver": 116,
+          "bronze": 95,
+          "total": 265
+        },
+        "IOI": {
+          "gold": 15,
+          "silver": 32,
+          "bronze": 52,
+          "total": 99
+        },
+        "IPhO": {
+          "gold": 31,
+          "silver": 84,
+          "bronze": 84,
+          "total": 199
+        },
+        "combined": {
+          "gold": 100,
+          "silver": 232,
+          "bronze": 231,
+          "total": 563
+        }
+      },
+      "population": 83491249
+    },
+    {
+      "code": "VNM",
+      "name": "Vietnam",
+      "medals": {
+        "IMO": {
+          "gold": 71,
+          "silver": 120,
+          "bronze": 86,
+          "total": 277
+        },
+        "IOI": {
+          "gold": 22,
+          "silver": 53,
+          "bronze": 55,
+          "total": 130
+        },
+        "IPhO": {
+          "gold": 45,
+          "silver": 58,
+          "bronze": 49,
+          "total": 152
+        },
+        "combined": {
+          "gold": 138,
+          "silver": 231,
+          "bronze": 190,
+          "total": 559
+        }
+      },
+      "population": 101343800
+    },
+    {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "medals": {
+        "IMO": {
+          "gold": 59,
+          "silver": 125,
+          "bronze": 133,
+          "total": 317
+        },
+        "IOI": {
+          "gold": 8,
+          "silver": 22,
+          "bronze": 49,
+          "total": 79
+        },
+        "IPhO": {
+          "gold": 13,
+          "silver": 55,
+          "bronze": 86,
+          "total": 154
+        },
+        "combined": {
+          "gold": 80,
+          "silver": 202,
+          "bronze": 268,
+          "total": 550
+        }
+      },
+      "population": 69281437
+    },
+    {
+      "code": "IRN",
+      "name": "Iran",
+      "medals": {
+        "IMO": {
+          "gold": 53,
+          "silver": 116,
+          "bronze": 51,
+          "total": 220
+        },
+        "IOI": {
+          "gold": 33,
+          "silver": 69,
+          "bronze": 25,
+          "total": 127
+        },
+        "IPhO": {
+          "gold": 37,
+          "silver": 77,
+          "bronze": 39,
+          "total": 153
+        },
+        "combined": {
+          "gold": 123,
+          "silver": 262,
+          "bronze": 115,
+          "total": 500
+        }
+      },
+      "population": 85961000
+    },
+    {
+      "code": "KOR",
+      "name": "South Korea",
+      "medals": {
+        "IMO": {
+          "gold": 99,
+          "silver": 85,
+          "bronze": 28,
+          "total": 212
+        },
+        "IOI": {
+          "gold": 53,
+          "silver": 50,
+          "bronze": 28,
+          "total": 131
+        },
+        "IPhO": {
+          "gold": 92,
+          "silver": 29,
+          "bronze": 24,
+          "total": 145
+        },
+        "combined": {
+          "gold": 244,
+          "silver": 164,
+          "bronze": 80,
+          "total": 488
+        }
+      },
+      "population": 51159889
+    },
+    {
+      "code": "RUS",
+      "name": "Russia",
+      "medals": {
+        "IMO": {
+          "gold": 106,
+          "silver": 62,
+          "bronze": 12,
+          "total": 180
+        },
+        "IOI": {
+          "gold": 68,
+          "silver": 40,
+          "bronze": 12,
+          "total": 120
+        },
+        "IPhO": {
+          "gold": 99,
+          "silver": 49,
+          "bronze": 10,
+          "total": 158
+        },
+        "combined": {
+          "gold": 273,
+          "silver": 151,
+          "bronze": 34,
+          "total": 458
+        }
+      },
+      "population": 146028325
+    },
+    {
+      "code": "TWN",
+      "name": "Taiwan",
+      "medals": {
+        "IMO": {
+          "gold": 48,
+          "silver": 107,
+          "bronze": 39,
+          "total": 194
+        },
+        "IOI": {
+          "gold": 26,
+          "silver": 64,
+          "bronze": 30,
+          "total": 120
+        },
+        "IPhO": {
+          "gold": 85,
+          "silver": 36,
+          "bronze": 18,
+          "total": 139
+        },
+        "combined": {
+          "gold": 159,
+          "silver": 207,
+          "bronze": 87,
+          "total": 453
+        }
+      },
+      "population": 23317031
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "medals": {
+        "IMO": {
+          "gold": 44,
+          "silver": 77,
+          "bronze": 61,
+          "total": 182
+        },
+        "IOI": {
+          "gold": 13,
+          "silver": 42,
+          "bronze": 52,
+          "total": 107
+        },
+        "IPhO": {
+          "gold": 19,
+          "silver": 62,
+          "bronze": 61,
+          "total": 142
+        },
+        "combined": {
+          "gold": 76,
+          "silver": 181,
+          "bronze": 174,
+          "total": 431
+        }
+      },
+      "population": 32862000
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "medals": {
+        "IMO": {
+          "gold": 31,
+          "silver": 80,
+          "bronze": 104,
+          "total": 215
+        },
+        "IOI": {
+          "gold": 11,
+          "silver": 33,
+          "bronze": 42,
+          "total": 86
+        },
+        "IPhO": {
+          "gold": 10,
+          "silver": 35,
+          "bronze": 78,
+          "total": 123
+        },
+        "combined": {
+          "gold": 52,
+          "silver": 148,
+          "bronze": 224,
+          "total": 424
+        }
+      },
+      "population": 27536874
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "medals": {
+        "IMO": {
+          "gold": 44,
+          "silver": 73,
+          "bronze": 98,
+          "total": 215
+        },
+        "IOI": {
+          "gold": 23,
+          "silver": 36,
+          "bronze": 42,
+          "total": 101
+        },
+        "IPhO": {
+          "gold": 9,
+          "silver": 28,
+          "bronze": 64,
+          "total": 101
+        },
+        "combined": {
+          "gold": 76,
+          "silver": 137,
+          "bronze": 204,
+          "total": 417
+        }
+      },
+      "population": 41651653
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "medals": {
+        "IMO": {
+          "gold": 28,
+          "silver": 76,
+          "bronze": 75,
+          "total": 179
+        },
+        "IOI": {
+          "gold": 18,
+          "silver": 47,
+          "bronze": 43,
+          "total": 108
+        },
+        "IPhO": {
+          "gold": 50,
+          "silver": 51,
+          "bronze": 27,
+          "total": 128
+        },
+        "combined": {
+          "gold": 96,
+          "silver": 174,
+          "bronze": 145,
+          "total": 415
+        }
+      },
+      "population": 6110200
+    },
+    {
+      "code": "TUR",
+      "name": "Turkey",
+      "medals": {
+        "IMO": {
+          "gold": 24,
+          "silver": 77,
+          "bronze": 96,
+          "total": 197
+        },
+        "IOI": {
+          "gold": 4,
+          "silver": 29,
+          "bronze": 53,
+          "total": 86
+        },
+        "IPhO": {
+          "gold": 13,
+          "silver": 53,
+          "bronze": 57,
+          "total": 123
+        },
+        "combined": {
+          "gold": 41,
+          "silver": 159,
+          "bronze": 206,
+          "total": 406
+        }
+      },
+      "population": 85664944
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "medals": {
+        "IMO": {
+          "gold": 28,
+          "silver": 74,
+          "bronze": 131,
+          "total": 233
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 21,
+          "bronze": 42,
+          "total": 66
+        },
+        "IPhO": {
+          "gold": 8,
+          "silver": 54,
+          "bronze": 42,
+          "total": 104
+        },
+        "combined": {
+          "gold": 39,
+          "silver": 149,
+          "bronze": 215,
+          "total": 403
+        }
+      },
+      "population": 66351959
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "medals": {
+        "IMO": {
+          "gold": 35,
+          "silver": 72,
+          "bronze": 55,
+          "total": 162
+        },
+        "IOI": {
+          "gold": 15,
+          "silver": 39,
+          "bronze": 65,
+          "total": 119
+        },
+        "IPhO": {
+          "gold": 38,
+          "silver": 52,
+          "bronze": 24,
+          "total": 114
+        },
+        "combined": {
+          "gold": 88,
+          "silver": 163,
+          "bronze": 144,
+          "total": 395
+        }
+      },
+      "population": 65859640
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "medals": {
+        "IMO": {
+          "gold": 26,
+          "silver": 69,
+          "bronze": 108,
+          "total": 203
+        },
+        "IOI": {
+          "gold": 14,
+          "silver": 34,
+          "bronze": 35,
+          "total": 83
+        },
+        "IPhO": {
+          "gold": 13,
+          "silver": 55,
+          "bronze": 39,
+          "total": 107
+        },
+        "combined": {
+          "gold": 53,
+          "silver": 158,
+          "bronze": 182,
+          "total": 393
+        }
+      },
+      "population": 10134800
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "medals": {
+        "IMO": {
+          "gold": 20,
+          "silver": 62,
+          "bronze": 88,
+          "total": 170
+        },
+        "IOI": {
+          "gold": 16,
+          "silver": 42,
+          "bronze": 44,
+          "total": 102
+        },
+        "IPhO": {
+          "gold": 14,
+          "silver": 40,
+          "bronze": 56,
+          "total": 110
+        },
+        "combined": {
+          "gold": 50,
+          "silver": 144,
+          "bronze": 188,
+          "total": 382
+        }
+      },
+      "population": 9109280
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "medals": {
+        "IMO": {
+          "gold": 23,
+          "silver": 76,
+          "bronze": 80,
+          "total": 179
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 25,
+          "bronze": 42,
+          "total": 70
+        },
+        "IPhO": {
+          "gold": 54,
+          "silver": 55,
+          "bronze": 14,
+          "total": 123
+        },
+        "combined": {
+          "gold": 80,
+          "silver": 156,
+          "bronze": 136,
+          "total": 372
+        }
+      },
+      "population": 1417492000
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "medals": {
+        "IMO": {
+          "gold": 51,
+          "silver": 100,
+          "bronze": 53,
+          "total": 204
+        },
+        "IOI": {
+          "gold": 38,
+          "silver": 33,
+          "bronze": 10,
+          "total": 81
+        },
+        "IPhO": {
+          "gold": 24,
+          "silver": 42,
+          "bronze": 20,
+          "total": 86
+        },
+        "combined": {
+          "gold": 113,
+          "silver": 175,
+          "bronze": 83,
+          "total": 371
+        }
+      },
+      "population": 123210000
+    },
+    {
+      "code": "SVK",
+      "name": "Slovakia",
+      "medals": {
+        "IMO": {
+          "gold": 7,
+          "silver": 42,
+          "bronze": 93,
+          "total": 142
+        },
+        "IOI": {
+          "gold": 26,
+          "silver": 45,
+          "bronze": 38,
+          "total": 109
+        },
+        "IPhO": {
+          "gold": 9,
+          "silver": 27,
+          "bronze": 59,
+          "total": 95
+        },
+        "combined": {
+          "gold": 42,
+          "silver": 114,
+          "bronze": 190,
+          "total": 346
+        }
+      },
+      "population": 5413813
+    },
+    {
+      "code": "CZE",
+      "name": "Czech Republic",
+      "medals": {
+        "IMO": {
+          "gold": 7,
+          "silver": 40,
+          "bronze": 83,
+          "total": 130
+        },
+        "IOI": {
+          "gold": 16,
+          "silver": 29,
+          "bronze": 54,
+          "total": 99
+        },
+        "IPhO": {
+          "gold": 10,
+          "silver": 38,
+          "bronze": 62,
+          "total": 110
+        },
+        "combined": {
+          "gold": 33,
+          "silver": 107,
+          "bronze": 199,
+          "total": 339
+        }
+      },
+      "population": 10882341
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "medals": {
+        "IMO": {
+          "gold": 24,
+          "silver": 56,
+          "bronze": 82,
+          "total": 162
+        },
+        "IOI": {
+          "gold": 2,
+          "silver": 26,
+          "bronze": 44,
+          "total": 72
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 22,
+          "bronze": 64,
+          "total": 87
+        },
+        "combined": {
+          "gold": 27,
+          "silver": 104,
+          "bronze": 190,
+          "total": 321
+        }
+      },
+      "population": 58927633
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "medals": {
+        "IMO": {
+          "gold": 16,
+          "silver": 51,
+          "bronze": 79,
+          "total": 146
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 30,
+          "bronze": 42,
+          "total": 75
+        },
+        "IPhO": {
+          "gold": 14,
+          "silver": 48,
+          "bronze": 31,
+          "total": 93
+        },
+        "combined": {
+          "gold": 33,
+          "silver": 129,
+          "bronze": 152,
+          "total": 314
+        }
+      },
+      "population": 20426568
+    },
+    {
+      "code": "IDN",
+      "name": "Indonesia",
+      "medals": {
+        "IMO": {
+          "gold": 6,
+          "silver": 30,
+          "bronze": 65,
+          "total": 101
+        },
+        "IOI": {
+          "gold": 5,
+          "silver": 37,
+          "bronze": 47,
+          "total": 89
+        },
+        "IPhO": {
+          "gold": 28,
+          "silver": 43,
+          "bronze": 49,
+          "total": 120
+        },
+        "combined": {
+          "gold": 39,
+          "silver": 110,
+          "bronze": 161,
+          "total": 310
+        }
+      },
+      "population": 284438782
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "medals": {
+        "IMO": {
+          "gold": 15,
+          "silver": 61,
+          "bronze": 93,
+          "total": 169
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 20,
+          "bronze": 41,
+          "total": 64
+        },
+        "IPhO": {
+          "gold": 7,
+          "silver": 17,
+          "bronze": 51,
+          "total": 75
+        },
+        "combined": {
+          "gold": 25,
+          "silver": 98,
+          "bronze": 185,
+          "total": 308
+        }
+      },
+      "population": 213421037
+    },
+    {
+      "code": "NLD",
+      "name": "Netherlands",
+      "medals": {
+        "IMO": {
+          "gold": 11,
+          "silver": 35,
+          "bronze": 100,
+          "total": 146
+        },
+        "IOI": {
+          "gold": 4,
+          "silver": 19,
+          "bronze": 43,
+          "total": 66
+        },
+        "IPhO": {
+          "gold": 4,
+          "silver": 13,
+          "bronze": 58,
+          "total": 75
+        },
+        "combined": {
+          "gold": 19,
+          "silver": 67,
+          "bronze": 201,
+          "total": 287
+        }
+      },
+      "population": 18100436
+    },
+    {
+      "code": "HRV",
+      "name": "Croatia",
+      "medals": {
+        "IMO": {
+          "gold": 6,
+          "silver": 30,
+          "bronze": 88,
+          "total": 124
+        },
+        "IOI": {
+          "gold": 16,
+          "silver": 46,
+          "bronze": 48,
+          "total": 110
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 43,
+          "total": 51
+        },
+        "combined": {
+          "gold": 22,
+          "silver": 84,
+          "bronze": 179,
+          "total": 285
+        }
+      },
+      "population": 3866233
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong",
+      "medals": {
+        "IMO": {
+          "gold": 16,
+          "silver": 69,
+          "bronze": 94,
+          "total": 179
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 25,
+          "silver": 44,
+          "bronze": 27,
+          "total": 96
+        },
+        "combined": {
+          "gold": 41,
+          "silver": 113,
+          "bronze": 121,
+          "total": 275
+        }
+      },
+      "population": 7527500
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "medals": {
+        "IMO": {
+          "gold": 7,
+          "silver": 36,
+          "bronze": 92,
+          "total": 135
+        },
+        "IOI": {
+          "gold": 13,
+          "silver": 30,
+          "bronze": 42,
+          "total": 85
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 12,
+          "bronze": 30,
+          "total": 43
+        },
+        "combined": {
+          "gold": 21,
+          "silver": 78,
+          "bronze": 164,
+          "total": 263
+        }
+      },
+      "population": 10605098
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "medals": {
+        "IMO": {
+          "gold": 14,
+          "silver": 41,
+          "bronze": 115,
+          "total": 170
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 6,
+          "bronze": 30,
+          "total": 39
+        },
+        "IPhO": {
+          "gold": 4,
+          "silver": 12,
+          "bronze": 37,
+          "total": 53
+        },
+        "combined": {
+          "gold": 21,
+          "silver": 59,
+          "bronze": 182,
+          "total": 262
+        }
+      },
+      "population": 9200931
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "medals": {
+        "IMO": {
+          "gold": 16,
+          "silver": 39,
+          "bronze": 41,
+          "total": 96
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 22,
+          "bronze": 36,
+          "total": 59
+        },
+        "IPhO": {
+          "gold": 4,
+          "silver": 24,
+          "bronze": 44,
+          "total": 72
+        },
+        "combined": {
+          "gold": 21,
+          "silver": 85,
+          "bronze": 121,
+          "total": 227
+        }
+      },
+      "population": 6567783
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "medals": {
+        "IMO": {
+          "gold": 2,
+          "silver": 10,
+          "bronze": 61,
+          "total": 73
+        },
+        "IOI": {
+          "gold": 2,
+          "silver": 31,
+          "bronze": 52,
+          "total": 85
+        },
+        "IPhO": {
+          "gold": 2,
+          "silver": 16,
+          "bronze": 49,
+          "total": 67
+        },
+        "combined": {
+          "gold": 6,
+          "silver": 57,
+          "bronze": 162,
+          "total": 225
+        }
+      },
+      "population": 2894886
+    },
+    {
+      "code": "ARM",
+      "name": "Armenia",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 30,
+          "bronze": 77,
+          "total": 108
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 8,
+          "bronze": 37,
+          "total": 46
+        },
+        "IPhO": {
+          "gold": 2,
+          "silver": 11,
+          "bronze": 43,
+          "total": 56
+        },
+        "combined": {
+          "gold": 4,
+          "silver": 49,
+          "bronze": 157,
+          "total": 210
+        }
+      },
+      "population": 3076200
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 12,
+          "bronze": 58,
+          "total": 71
+        },
+        "IOI": {
+          "gold": 5,
+          "silver": 28,
+          "bronze": 48,
+          "total": 81
+        },
+        "IPhO": {
+          "gold": 2,
+          "silver": 10,
+          "bronze": 40,
+          "total": 52
+        },
+        "combined": {
+          "gold": 8,
+          "silver": 50,
+          "bronze": 146,
+          "total": 204
+        }
+      },
+      "population": 5650325
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 12,
+          "bronze": 40,
+          "total": 52
+        },
+        "IOI": {
+          "gold": 5,
+          "silver": 20,
+          "bronze": 43,
+          "total": 68
+        },
+        "IPhO": {
+          "gold": 6,
+          "silver": 23,
+          "bronze": 45,
+          "total": 74
+        },
+        "combined": {
+          "gold": 11,
+          "silver": 55,
+          "bronze": 128,
+          "total": 194
+        }
+      },
+      "population": 1369995
+    },
+    {
+      "code": "LVA",
+      "name": "Latvia",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 11,
+          "bronze": 47,
+          "total": 59
+        },
+        "IOI": {
+          "gold": 8,
+          "silver": 25,
+          "bronze": 55,
+          "total": 88
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 38,
+          "total": 44
+        },
+        "combined": {
+          "gold": 10,
+          "silver": 41,
+          "bronze": 140,
+          "total": 191
+        }
+      },
+      "population": 1829000
+    },
+    {
+      "code": "MNG",
+      "name": "Mongolia",
+      "medals": {
+        "IMO": {
+          "gold": 9,
+          "silver": 35,
+          "bronze": 83,
+          "total": 127
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 11,
+          "total": 14
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 13,
+          "bronze": 34,
+          "total": 47
+        },
+        "combined": {
+          "gold": 10,
+          "silver": 50,
+          "bronze": 128,
+          "total": 188
+        }
+      },
+      "population": 3544835
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "medals": {
+        "IMO": {
+          "gold": 6,
+          "silver": 37,
+          "bronze": 84,
+          "total": 127
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 28,
+          "total": 32
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 28,
+          "total": 28
+        },
+        "combined": {
+          "gold": 7,
+          "silver": 40,
+          "bronze": 140,
+          "total": 187
+        }
+      },
+      "population": 130575786
+    },
+    {
+      "code": "MDA",
+      "name": "Moldova",
+      "medals": {
+        "IMO": {
+          "gold": 5,
+          "silver": 26,
+          "bronze": 61,
+          "total": 92
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 32,
+          "total": 40
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 13,
+          "bronze": 39,
+          "total": 53
+        },
+        "combined": {
+          "gold": 6,
+          "silver": 47,
+          "bronze": 132,
+          "total": 185
+        }
+      },
+      "population": 2749076
+    },
+    {
+      "code": "GRC",
+      "name": "Greece",
+      "medals": {
+        "IMO": {
+          "gold": 5,
+          "silver": 35,
+          "bronze": 87,
+          "total": 127
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 6,
+          "bronze": 33,
+          "total": 39
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 9,
+          "total": 9
+        },
+        "combined": {
+          "gold": 5,
+          "silver": 41,
+          "bronze": 129,
+          "total": 175
+        }
+      },
+      "population": 10400720
+    },
+    {
+      "code": "CHE",
+      "name": "Switzerland",
+      "medals": {
+        "IMO": {
+          "gold": 4,
+          "silver": 15,
+          "bronze": 65,
+          "total": 84
+        },
+        "IOI": {
+          "gold": 2,
+          "silver": 11,
+          "bronze": 37,
+          "total": 50
+        },
+        "IPhO": {
+          "gold": 2,
+          "silver": 6,
+          "bronze": 29,
+          "total": 37
+        },
+        "combined": {
+          "gold": 8,
+          "silver": 32,
+          "bronze": 131,
+          "total": 171
+        }
+      },
+      "population": 9082848
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "medals": {
+        "IMO": {
+          "gold": 6,
+          "silver": 29,
+          "bronze": 72,
+          "total": 107
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 9,
+          "bronze": 26,
+          "total": 38
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 15,
+          "total": 18
+        },
+        "combined": {
+          "gold": 9,
+          "silver": 41,
+          "bronze": 113,
+          "total": 163
+        }
+      },
+      "population": 46735004
+    },
+    {
+      "code": "SVN",
+      "name": "Slovenia",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 8,
+          "bronze": 44,
+          "total": 53
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 7,
+          "bronze": 29,
+          "total": 37
+        },
+        "IPhO": {
+          "gold": 5,
+          "silver": 12,
+          "bronze": 48,
+          "total": 65
+        },
+        "combined": {
+          "gold": 7,
+          "silver": 27,
+          "bronze": 121,
+          "total": 155
+        }
+      },
+      "population": 2130638
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 10,
+          "bronze": 68,
+          "total": 78
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 8,
+          "bronze": 21,
+          "total": 30
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 28,
+          "total": 34
+        },
+        "combined": {
+          "gold": 2,
+          "silver": 23,
+          "bronze": 117,
+          "total": 142
+        }
+      },
+      "population": 49315949
+    },
+    {
+      "code": "ZAF",
+      "name": "South Africa",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 12,
+          "bronze": 59,
+          "total": 72
+        },
+        "IOI": {
+          "gold": 4,
+          "silver": 13,
+          "bronze": 48,
+          "total": 65
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 5,
+          "silver": 25,
+          "bronze": 107,
+          "total": 137
+        }
+      },
+      "population": 63100945
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "medals": {
+        "IMO": {
+          "gold": 2,
+          "silver": 19,
+          "bronze": 75,
+          "total": 96
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 13,
+          "total": 16
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 21,
+          "total": 22
+        },
+        "combined": {
+          "gold": 2,
+          "silver": 23,
+          "bronze": 109,
+          "total": 134
+        }
+      },
+      "population": 11825551
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 19,
+          "bronze": 83,
+          "total": 103
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 10,
+          "total": 12
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 9,
+          "total": 12
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 24,
+          "bronze": 102,
+          "total": 127
+        }
+      },
+      "population": 53057212
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "medals": {
+        "IMO": {
+          "gold": 7,
+          "silver": 45,
+          "bronze": 65,
+          "total": 117
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 7,
+          "silver": 45,
+          "bronze": 66,
+          "total": 118
+        }
+      },
+      "population": 34350244
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 7,
+          "silver": 13,
+          "bronze": 44,
+          "total": 64
+        },
+        "IPhO": {
+          "gold": 3,
+          "silver": 14,
+          "bronze": 35,
+          "total": 52
+        },
+        "combined": {
+          "gold": 10,
+          "silver": 27,
+          "bronze": 79,
+          "total": 116
+        }
+      },
+      "population": 4000921
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "medals": {
+        "IMO": {
+          "gold": 4,
+          "silver": 14,
+          "bronze": 65,
+          "total": 83
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 10,
+          "total": 11
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 5,
+          "bronze": 16,
+          "total": 21
+        },
+        "combined": {
+          "gold": 4,
+          "silver": 20,
+          "bronze": 91,
+          "total": 115
+        }
+      },
+      "population": 3422000
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 10,
+          "bronze": 45,
+          "total": 55
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 14,
+          "total": 16
+        },
+        "IPhO": {
+          "gold": 5,
+          "silver": 11,
+          "bronze": 26,
+          "total": 42
+        },
+        "combined": {
+          "gold": 5,
+          "silver": 23,
+          "bronze": 85,
+          "total": 113
+        }
+      },
+      "population": 10241722
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "medals": {
+        "IMO": {
+          "gold": 2,
+          "silver": 17,
+          "bronze": 65,
+          "total": 84
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 25,
+          "total": 27
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 2,
+          "silver": 19,
+          "bronze": 91,
+          "total": 112
+        }
+      },
+      "population": 5324700
+    },
+    {
+      "code": "MYS",
+      "name": "Malaysia",
+      "medals": {
+        "IMO": {
+          "gold": 6,
+          "silver": 20,
+          "bronze": 38,
+          "total": 64
+        },
+        "IOI": {
+          "gold": 2,
+          "silver": 6,
+          "bronze": 17,
+          "total": 25
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 18,
+          "total": 21
+        },
+        "combined": {
+          "gold": 9,
+          "silver": 28,
+          "bronze": 73,
+          "total": 110
+        }
+      },
+      "population": 34231700
+    },
+    {
+      "code": "MKD",
+      "name": "North Macedonia",
+      "medals": {
+        "IMO": {
+          "gold": 3,
+          "silver": 10,
+          "bronze": 52,
+          "total": 65
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 6,
+          "bronze": 24,
+          "total": 30
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 11,
+          "total": 12
+        },
+        "combined": {
+          "gold": 3,
+          "silver": 17,
+          "bronze": 87,
+          "total": 107
+        }
+      },
+      "population": 1822612
+    },
+    {
+      "code": "DNK",
+      "name": "Denmark",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 6,
+          "bronze": 43,
+          "total": 50
+        },
+        "IOI": {
+          "gold": 3,
+          "silver": 6,
+          "bronze": 24,
+          "total": 33
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 4,
+          "bronze": 19,
+          "total": 23
+        },
+        "combined": {
+          "gold": 4,
+          "silver": 16,
+          "bronze": 86,
+          "total": 106
+        }
+      },
+      "population": 6011488
+    },
+    {
+      "code": "BGD",
+      "name": "Bangladesh",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 7,
+          "bronze": 40,
+          "total": 48
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 7,
+          "bronze": 25,
+          "total": 33
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 18,
+          "total": 21
+        },
+        "combined": {
+          "gold": 2,
+          "silver": 17,
+          "bronze": 83,
+          "total": 102
+        }
+      },
+      "population": 169828911
+    },
+    {
+      "code": "PHL",
+      "name": "Philippines",
+      "medals": {
+        "IMO": {
+          "gold": 4,
+          "silver": 21,
+          "bronze": 44,
+          "total": 69
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 4,
+          "bronze": 15,
+          "total": 19
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 11,
+          "total": 14
+        },
+        "combined": {
+          "gold": 4,
+          "silver": 28,
+          "bronze": 70,
+          "total": 102
+        }
+      },
+      "population": 114123600
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 7,
+          "bronze": 38,
+          "total": 46
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 31,
+          "total": 39
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 10,
+          "total": 13
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 18,
+          "bronze": 79,
+          "total": 98
+        }
+      },
+      "population": 9748007
+    },
+    {
+      "code": "SAU",
+      "name": "Saudi Arabia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 12,
+          "bronze": 48,
+          "total": 60
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 7,
+          "total": 7
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 7,
+          "bronze": 23,
+          "total": 30
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 19,
+          "bronze": 78,
+          "total": 97
+        }
+      },
+      "population": 35300280
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "medals": {
+        "IMO": {
+          "gold": 3,
+          "silver": 15,
+          "bronze": 44,
+          "total": 62
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 3,
+          "bronze": 11,
+          "total": 15
+        },
+        "IPhO": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 9,
+          "total": 10
+        },
+        "combined": {
+          "gold": 5,
+          "silver": 18,
+          "bronze": 64,
+          "total": 87
+        }
+      },
+      "population": 5606944
+    },
+    {
+      "code": "PRT",
+      "name": "Portugal",
+      "medals": {
+        "IMO": {
+          "gold": 3,
+          "silver": 9,
+          "bronze": 44,
+          "total": 56
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 9,
+          "total": 11
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 13,
+          "total": 15
+        },
+        "combined": {
+          "gold": 3,
+          "silver": 13,
+          "bronze": 66,
+          "total": 82
+        }
+      },
+      "population": 10749635
+    },
+    {
+      "code": "MAC",
+      "name": "Macau",
+      "medals": {
+        "IMO": {
+          "gold": 2,
+          "silver": 5,
+          "bronze": 36,
+          "total": 43
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 2,
+          "silver": 4,
+          "bronze": 28,
+          "total": 34
+        },
+        "combined": {
+          "gold": 4,
+          "silver": 9,
+          "bronze": 64,
+          "total": 77
+        }
+      },
+      "population": 685900
+    },
+    {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 36,
+          "total": 44
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 0,
+          "bronze": 6,
+          "total": 7
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 6,
+          "bronze": 16,
+          "total": 22
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 14,
+          "bronze": 58,
+          "total": 73
+        }
+      },
+      "population": 7057841
+    },
+    {
+      "code": "PRK",
+      "name": "North Korea",
+      "medals": {
+        "IMO": {
+          "gold": 22,
+          "silver": 36,
+          "bronze": 9,
+          "total": 67
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 22,
+          "silver": 36,
+          "bronze": 9,
+          "total": 67
+        }
+      },
+      "population": 25950000
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 16,
+          "bronze": 36,
+          "total": 52
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 4,
+          "total": 5
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 6,
+          "total": 6
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 17,
+          "bronze": 46,
+          "total": 63
+        }
+      },
+      "population": 37859698
+    },
+    {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 7,
+          "bronze": 28,
+          "total": 35
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 6,
+          "total": 9
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 16,
+          "total": 19
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 13,
+          "bronze": 50,
+          "total": 63
+        }
+      },
+      "population": 10499000
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyzstan",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 6,
+          "bronze": 15,
+          "total": 22
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 20,
+          "total": 23
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 14,
+          "total": 16
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 11,
+          "bronze": 49,
+          "total": 61
+        }
+      },
+      "population": 7281800
+    },
+    {
+      "code": "SYR",
+      "name": "Syria",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 5,
+          "bronze": 18,
+          "total": 23
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 16,
+          "total": 18
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 8,
+          "total": 10
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 9,
+          "bronze": 42,
+          "total": 51
+        }
+      },
+      "population": 25620000
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 23,
+          "total": 31
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 11,
+          "total": 13
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 4,
+          "total": 6
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 12,
+          "bronze": 38,
+          "total": 50
+        }
+      },
+      "population": 1442614
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "medals": {
+        "IMO": {
+          "gold": 2,
+          "silver": 5,
+          "bronze": 25,
+          "total": 32
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 15,
+          "total": 16
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 1,
+          "total": 2
+        },
+        "combined": {
+          "gold": 2,
+          "silver": 7,
+          "bronze": 41,
+          "total": 50
+        }
+      },
+      "population": 681973
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 4,
+          "bronze": 38,
+          "total": 42
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 3,
+          "total": 3
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 4,
+          "bronze": 41,
+          "total": 45
+        }
+      },
+      "population": 36828330
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 8,
+          "bronze": 28,
+          "total": 36
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 3,
+          "total": 5
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 10,
+          "bronze": 31,
+          "total": 41
+        }
+      },
+      "population": 107271260
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 9,
+          "total": 11
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 6,
+          "total": 6
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 16,
+          "total": 17
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 31,
+          "total": 34
+        }
+      },
+      "population": 241499431
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 15,
+          "total": 21
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 9,
+          "total": 9
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 5,
+          "bronze": 24,
+          "total": 30
+        }
+      },
+      "population": 5458600
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 6,
+          "bronze": 19,
+          "total": 26
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 6,
+          "bronze": 21,
+          "total": 28
+        }
+      },
+      "population": 11972169
+    },
+    {
+      "code": "LKA",
+      "name": "Sri Lanka",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 27,
+          "total": 27
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 27,
+          "total": 27
+        }
+      },
+      "population": 21763170
+    },
+    {
+      "code": "CRI",
+      "name": "Costa Rica",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 22,
+          "total": 23
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 23,
+          "total": 24
+        }
+      },
+      "population": 5309625
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 12,
+          "total": 13
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 3,
+          "total": 3
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 6,
+          "total": 7
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 21,
+          "total": 23
+        }
+      },
+      "population": 391810
+    },
+    {
+      "code": "DZA",
+      "name": "Algeria",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 11,
+          "total": 14
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 2,
+          "bronze": 12,
+          "total": 15
+        }
+      },
+      "population": 47400000
+    },
+    {
+      "code": "SLV",
+      "name": "El Salvador",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 6,
+          "total": 7
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 5,
+          "total": 7
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 11,
+          "total": 14
+        }
+      },
+      "population": 6029976
+    },
+    {
+      "code": "CHL",
+      "name": "Chile",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 6,
+          "total": 9
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 4,
+          "total": 4
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 10,
+          "total": 13
+        }
+      },
+      "population": 20206953
+    },
+    {
+      "code": "ALB",
+      "name": "Albania",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 10,
+          "total": 12
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 11,
+          "total": 13
+        }
+      },
+      "population": 2363314
+    },
+    {
+      "code": "PRY",
+      "name": "Paraguay",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 11,
+          "total": 12
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 11,
+          "total": 12
+        }
+      },
+      "population": 6109644
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 12,
+          "total": 12
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 12,
+          "total": 12
+        }
+      },
+      "population": 18103660
+    },
+    {
+      "code": "PRI",
+      "name": "Puerto Rico",
+      "medals": {
+        "IMO": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 7,
+          "total": 9
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 1,
+          "silver": 1,
+          "bronze": 8,
+          "total": 10
+        }
+      },
+      "population": 3203295
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad and Tobago",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 5,
+          "total": 7
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 3,
+          "total": 3
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 8,
+          "total": 10
+        }
+      },
+      "population": 1367764
+    },
+    {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 6,
+          "total": 9
+        },
+        "combined": {
+          "gold": 3,
+          "silver": 0,
+          "bronze": 6,
+          "total": 9
+        }
+      },
+      "population": 11294243
+    },
+    {
+      "code": "MNE",
+      "name": "Montenegro",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 2,
+          "total": 5
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 3,
+          "bronze": 5,
+          "total": 8
+        }
+      },
+      "population": 623327
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 5,
+          "total": 7
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 2,
+          "bronze": 6,
+          "total": 8
+        }
+      },
+      "population": 28517000
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 5,
+          "total": 6
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 7,
+          "total": 8
+        }
+      },
+      "population": 40900
+    },
+    {
+      "code": "NPL",
+      "name": "Nepal",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 5,
+          "total": 5
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 5,
+          "total": 5
+        }
+      },
+      "population": 29911840
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 4,
+          "total": 5
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 4,
+          "total": 5
+        }
+      },
+      "population": 11734000
+    },
+    {
+      "code": "KHM",
+      "name": "Cambodia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 3,
+          "total": 4
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 3,
+          "total": 4
+        }
+      },
+      "population": 17577760
+    },
+    {
+      "code": "NGA",
+      "name": "Nigeria",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 3,
+          "total": 3
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 3,
+          "total": 3
+        }
+      },
+      "population": 223800000
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        }
+      },
+      "population": 3173024
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 2,
+          "total": 2
+        }
+      },
+      "population": 574250
+    },
+    {
+      "code": "SUR",
+      "name": "Suriname",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        }
+      },
+      "population": 616500
+    },
+    {
+      "code": "PSE",
+      "name": "Palestine",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        }
+      },
+      "population": 5483450
+    },
+    {
+      "code": "CIV",
+      "name": "Ivory Coast",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "total": 1
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 1,
+          "bronze": 0,
+          "total": 1
+        }
+      },
+      "population": 31719275
+    },
+    {
+      "code": "BOL",
+      "name": "Bolivia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 1,
+          "total": 1
+        }
+      },
+      "population": 11365333
+    },
+    {
+      "code": "BRN",
+      "name": "Brunei",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 455500
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 4064780
+    },
+    {
+      "code": "URY",
+      "name": "Uruguay",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 3499451
+    },
+    {
+      "code": "BFA",
+      "name": "Burkina Faso",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 24070553
+    },
+    {
+      "code": "BEN",
+      "name": "Benin",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 13224860
+    },
+    {
+      "code": "RWA",
+      "name": "Rwanda",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 14104969
+    },
+    {
+      "code": "GMB",
+      "name": "Gambia",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 2422712
+    },
+    {
+      "code": "ZWE",
+      "name": "Zimbabwe",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 17073087
+    },
+    {
+      "code": "MDG",
+      "name": "Madagascar",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 31727042
+    },
+    {
+      "code": "MRT",
+      "name": "Mauritania",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 4927532
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 18593258
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 45905417
+    },
+    {
+      "code": "KSV",
+      "name": "Kosovo",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 0
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 33742380
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 34090466
+    },
+    {
+      "code": "KWT",
+      "name": "Kuwait",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 4881254
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 10771504
+    },
+    {
+      "code": "BWA",
+      "name": "Botswana",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 2359609
+    },
+    {
+      "code": "LBY",
+      "name": "Libya",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 7459000
+    },
+    {
+      "code": "MUS",
+      "name": "Mauritius",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 1243741
+    },
+    {
+      "code": "GTM",
+      "name": "Guatemala",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 18079810
+    },
+    {
+      "code": "MMR",
+      "name": "Myanmar",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 51316756
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 46118793
+    },
+    {
+      "code": "AFG",
+      "name": "Afghanistan",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 43844000
+    },
+    {
+      "code": "GAB",
+      "name": "Gabon",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 2469296
+    },
+    {
+      "code": "TZA",
+      "name": "Tanzania",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 68153004
+    },
+    {
+      "code": "BHR",
+      "name": "Bahrain",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 1594654
+    },
+    {
+      "code": "NIC",
+      "name": "Nicaragua",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 6803886
+    },
+    {
+      "code": "HND",
+      "name": "Honduras",
+      "medals": {
+        "IMO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IOI": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "IPhO": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        },
+        "combined": {
+          "gold": 0,
+          "silver": 0,
+          "bronze": 0,
+          "total": 0
+        }
+      },
+      "population": 9892632
+    }
+  ],
+  "metadata": {
+    "imo_years": "1959-2025",
+    "ioi_years": "1989-2025",
+    "ipho_years": "1967-2025",
+    "generated": "2026-02-13T19:43:19.818273"
+  }
+}
