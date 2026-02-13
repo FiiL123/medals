@@ -29,7 +29,8 @@
           "total": 713
         }
       },
-      "population": 19036031
+      "population": 19036031,
+      "alpha2": "RO"
     },
     {
       "code": "HUN",
@@ -60,7 +61,8 @@
           "total": 709
         }
       },
-      "population": 9539502
+      "population": 9539502,
+      "alpha2": "HU"
     },
     {
       "code": "USA",
@@ -91,7 +93,8 @@
           "total": 597
         }
       },
-      "population": 340110988
+      "population": 340110988,
+      "alpha2": "US"
     },
     {
       "code": "BGR",
@@ -122,7 +125,8 @@
           "total": 595
         }
       },
-      "population": 6437360
+      "population": 6437360,
+      "alpha2": "BG"
     },
     {
       "code": "POL",
@@ -153,7 +157,8 @@
           "total": 580
         }
       },
-      "population": 37392000
+      "population": 37392000,
+      "alpha2": "PL"
     },
     {
       "code": "CHN",
@@ -184,7 +189,8 @@
           "total": 566
         }
       },
-      "population": 1408280000
+      "population": 1408280000,
+      "alpha2": "CN"
     },
     {
       "code": "DEU",
@@ -215,7 +221,8 @@
           "total": 563
         }
       },
-      "population": 83491249
+      "population": 83491249,
+      "alpha2": "DE"
     },
     {
       "code": "VNM",
@@ -246,7 +253,8 @@
           "total": 559
         }
       },
-      "population": 101343800
+      "population": 101343800,
+      "alpha2": "VN"
     },
     {
       "code": "GBR",
@@ -277,7 +285,8 @@
           "total": 550
         }
       },
-      "population": 69281437
+      "population": 69281437,
+      "alpha2": "GB"
     },
     {
       "code": "IRN",
@@ -308,7 +317,8 @@
           "total": 500
         }
       },
-      "population": 85961000
+      "population": 85961000,
+      "alpha2": "IR"
     },
     {
       "code": "KOR",
@@ -339,7 +349,8 @@
           "total": 488
         }
       },
-      "population": 51159889
+      "population": 51159889,
+      "alpha2": "KR"
     },
     {
       "code": "RUS",
@@ -370,7 +381,8 @@
           "total": 458
         }
       },
-      "population": 146028325
+      "population": 146028325,
+      "alpha2": "RU"
     },
     {
       "code": "TWN",
@@ -401,7 +413,8 @@
           "total": 453
         }
       },
-      "population": 23317031
+      "population": 23317031,
+      "alpha2": "TW"
     },
     {
       "code": "UKR",
@@ -432,7 +445,8 @@
           "total": 431
         }
       },
-      "population": 32862000
+      "population": 32862000,
+      "alpha2": "UA"
     },
     {
       "code": "AUS",
@@ -463,7 +477,8 @@
           "total": 424
         }
       },
-      "population": 27536874
+      "population": 27536874,
+      "alpha2": "AU"
     },
     {
       "code": "CAN",
@@ -494,7 +509,8 @@
           "total": 417
         }
       },
-      "population": 41651653
+      "population": 41651653,
+      "alpha2": "CA"
     },
     {
       "code": "SGP",
@@ -525,7 +541,8 @@
           "total": 415
         }
       },
-      "population": 6110200
+      "population": 6110200,
+      "alpha2": "SG"
     },
     {
       "code": "TUR",
@@ -556,7 +573,8 @@
           "total": 406
         }
       },
-      "population": 85664944
+      "population": 85664944,
+      "alpha2": "TR"
     },
     {
       "code": "FRA",
@@ -587,7 +605,8 @@
           "total": 403
         }
       },
-      "population": 66351959
+      "population": 66351959,
+      "alpha2": "FR"
     },
     {
       "code": "THA",
@@ -618,7 +637,8 @@
           "total": 395
         }
       },
-      "population": 65859640
+      "population": 65859640,
+      "alpha2": "TH"
     },
     {
       "code": "ISR",
@@ -649,7 +669,8 @@
           "total": 393
         }
       },
-      "population": 10134800
+      "population": 10134800,
+      "alpha2": "IL"
     },
     {
       "code": "BLR",
@@ -680,7 +701,8 @@
           "total": 382
         }
       },
-      "population": 9109280
+      "population": 9109280,
+      "alpha2": "BY"
     },
     {
       "code": "IND",
@@ -711,7 +733,8 @@
           "total": 372
         }
       },
-      "population": 1417492000
+      "population": 1417492000,
+      "alpha2": "IN"
     },
     {
       "code": "JPN",
@@ -742,7 +765,8 @@
           "total": 371
         }
       },
-      "population": 123210000
+      "population": 123210000,
+      "alpha2": "JP"
     },
     {
       "code": "SVK",
@@ -773,7 +797,8 @@
           "total": 346
         }
       },
-      "population": 5413813
+      "population": 5413813,
+      "alpha2": "SK"
     },
     {
       "code": "CZE",
@@ -804,7 +829,8 @@
           "total": 339
         }
       },
-      "population": 10882341
+      "population": 10882341,
+      "alpha2": "CZ"
     },
     {
       "code": "ITA",
@@ -835,7 +861,8 @@
           "total": 321
         }
       },
-      "population": 58927633
+      "population": 58927633,
+      "alpha2": "IT"
     },
     {
       "code": "KAZ",
@@ -866,7 +893,8 @@
           "total": 314
         }
       },
-      "population": 20426568
+      "population": 20426568,
+      "alpha2": "KZ"
     },
     {
       "code": "IDN",
@@ -897,7 +925,8 @@
           "total": 310
         }
       },
-      "population": 284438782
+      "population": 284438782,
+      "alpha2": "ID"
     },
     {
       "code": "BRA",
@@ -928,7 +957,8 @@
           "total": 308
         }
       },
-      "population": 213421037
+      "population": 213421037,
+      "alpha2": "BR"
     },
     {
       "code": "NLD",
@@ -959,7 +989,8 @@
           "total": 287
         }
       },
-      "population": 18100436
+      "population": 18100436,
+      "alpha2": "NL"
     },
     {
       "code": "HRV",
@@ -990,7 +1021,8 @@
           "total": 285
         }
       },
-      "population": 3866233
+      "population": 3866233,
+      "alpha2": "HR"
     },
     {
       "code": "HKG",
@@ -1021,7 +1053,8 @@
           "total": 275
         }
       },
-      "population": 7527500
+      "population": 7527500,
+      "alpha2": "HK"
     },
     {
       "code": "SWE",
@@ -1052,7 +1085,8 @@
           "total": 263
         }
       },
-      "population": 10605098
+      "population": 10605098,
+      "alpha2": "SE"
     },
     {
       "code": "AUT",
@@ -1083,7 +1117,8 @@
           "total": 262
         }
       },
-      "population": 9200931
+      "population": 9200931,
+      "alpha2": "AT"
     },
     {
       "code": "SRB",
@@ -1114,7 +1149,8 @@
           "total": 227
         }
       },
-      "population": 6567783
+      "population": 6567783,
+      "alpha2": "RS"
     },
     {
       "code": "LTU",
@@ -1145,7 +1181,8 @@
           "total": 225
         }
       },
-      "population": 2894886
+      "population": 2894886,
+      "alpha2": "LT"
     },
     {
       "code": "ARM",
@@ -1176,7 +1213,8 @@
           "total": 210
         }
       },
-      "population": 3076200
+      "population": 3076200,
+      "alpha2": "AM"
     },
     {
       "code": "FIN",
@@ -1207,7 +1245,8 @@
           "total": 204
         }
       },
-      "population": 5650325
+      "population": 5650325,
+      "alpha2": "FI"
     },
     {
       "code": "EST",
@@ -1238,7 +1277,8 @@
           "total": 194
         }
       },
-      "population": 1369995
+      "population": 1369995,
+      "alpha2": "EE"
     },
     {
       "code": "LVA",
@@ -1269,7 +1309,8 @@
           "total": 191
         }
       },
-      "population": 1829000
+      "population": 1829000,
+      "alpha2": "LV"
     },
     {
       "code": "MNG",
@@ -1300,7 +1341,8 @@
           "total": 188
         }
       },
-      "population": 3544835
+      "population": 3544835,
+      "alpha2": "MN"
     },
     {
       "code": "MEX",
@@ -1331,7 +1373,8 @@
           "total": 187
         }
       },
-      "population": 130575786
+      "population": 130575786,
+      "alpha2": "MX"
     },
     {
       "code": "MDA",
@@ -1362,7 +1405,8 @@
           "total": 185
         }
       },
-      "population": 2749076
+      "population": 2749076,
+      "alpha2": "MD"
     },
     {
       "code": "GRC",
@@ -1393,7 +1437,8 @@
           "total": 175
         }
       },
-      "population": 10400720
+      "population": 10400720,
+      "alpha2": "GR"
     },
     {
       "code": "CHE",
@@ -1424,7 +1469,8 @@
           "total": 171
         }
       },
-      "population": 9082848
+      "population": 9082848,
+      "alpha2": "CH"
     },
     {
       "code": "ARG",
@@ -1455,7 +1501,8 @@
           "total": 163
         }
       },
-      "population": 46735004
+      "population": 46735004,
+      "alpha2": "AR"
     },
     {
       "code": "SVN",
@@ -1486,7 +1533,8 @@
           "total": 155
         }
       },
-      "population": 2130638
+      "population": 2130638,
+      "alpha2": "SI"
     },
     {
       "code": "ESP",
@@ -1517,7 +1565,8 @@
           "total": 142
         }
       },
-      "population": 49315949
+      "population": 49315949,
+      "alpha2": "ES"
     },
     {
       "code": "ZAF",
@@ -1548,7 +1597,8 @@
           "total": 137
         }
       },
-      "population": 63100945
+      "population": 63100945,
+      "alpha2": "ZA"
     },
     {
       "code": "BEL",
@@ -1579,7 +1629,8 @@
           "total": 134
         }
       },
-      "population": 11825551
+      "population": 11825551,
+      "alpha2": "BE"
     },
     {
       "code": "COL",
@@ -1610,7 +1661,8 @@
           "total": 127
         }
       },
-      "population": 53057212
+      "population": 53057212,
+      "alpha2": "CO"
     },
     {
       "code": "PER",
@@ -1641,7 +1693,8 @@
           "total": 118
         }
       },
-      "population": 34350244
+      "population": 34350244,
+      "alpha2": "PE"
     },
     {
       "code": "GEO",
@@ -1672,7 +1725,8 @@
           "total": 116
         }
       },
-      "population": 4000921
+      "population": 4000921,
+      "alpha2": "GE"
     },
     {
       "code": "BIH",
@@ -1703,7 +1757,8 @@
           "total": 115
         }
       },
-      "population": 3422000
+      "population": 3422000,
+      "alpha2": "BA"
     },
     {
       "code": "AZE",
@@ -1734,7 +1789,8 @@
           "total": 113
         }
       },
-      "population": 10241722
+      "population": 10241722,
+      "alpha2": "AZ"
     },
     {
       "code": "NZL",
@@ -1765,7 +1821,8 @@
           "total": 112
         }
       },
-      "population": 5324700
+      "population": 5324700,
+      "alpha2": "NZ"
     },
     {
       "code": "MYS",
@@ -1796,7 +1853,8 @@
           "total": 110
         }
       },
-      "population": 34231700
+      "population": 34231700,
+      "alpha2": "MY"
     },
     {
       "code": "MKD",
@@ -1827,7 +1885,8 @@
           "total": 107
         }
       },
-      "population": 1822612
+      "population": 1822612,
+      "alpha2": "MK"
     },
     {
       "code": "DNK",
@@ -1858,7 +1917,8 @@
           "total": 106
         }
       },
-      "population": 6011488
+      "population": 6011488,
+      "alpha2": "DK"
     },
     {
       "code": "BGD",
@@ -1889,7 +1949,8 @@
           "total": 102
         }
       },
-      "population": 169828911
+      "population": 169828911,
+      "alpha2": "BD"
     },
     {
       "code": "PHL",
@@ -1920,7 +1981,8 @@
           "total": 102
         }
       },
-      "population": 114123600
+      "population": 114123600,
+      "alpha2": "PH"
     },
     {
       "code": "CUB",
@@ -1951,7 +2013,8 @@
           "total": 98
         }
       },
-      "population": 9748007
+      "population": 9748007,
+      "alpha2": "CU"
     },
     {
       "code": "SAU",
@@ -1982,7 +2045,8 @@
           "total": 97
         }
       },
-      "population": 35300280
+      "population": 35300280,
+      "alpha2": "SA"
     },
     {
       "code": "NOR",
@@ -2013,7 +2077,8 @@
           "total": 87
         }
       },
-      "population": 5606944
+      "population": 5606944,
+      "alpha2": "NO"
     },
     {
       "code": "PRT",
@@ -2044,7 +2109,8 @@
           "total": 82
         }
       },
-      "population": 10749635
+      "population": 10749635,
+      "alpha2": "PT"
     },
     {
       "code": "MAC",
@@ -2075,7 +2141,8 @@
           "total": 77
         }
       },
-      "population": 685900
+      "population": 685900,
+      "alpha2": "MO"
     },
     {
       "code": "TKM",
@@ -2106,7 +2173,8 @@
           "total": 73
         }
       },
-      "population": 7057841
+      "population": 7057841,
+      "alpha2": "TM"
     },
     {
       "code": "PRK",
@@ -2137,7 +2205,8 @@
           "total": 67
         }
       },
-      "population": 25950000
+      "population": 25950000,
+      "alpha2": "KP"
     },
     {
       "code": "UZB",
@@ -2168,7 +2237,8 @@
           "total": 63
         }
       },
-      "population": 37859698
+      "population": 37859698,
+      "alpha2": "UZ"
     },
     {
       "code": "TJK",
@@ -2199,7 +2269,8 @@
           "total": 63
         }
       },
-      "population": 10499000
+      "population": 10499000,
+      "alpha2": "TJ"
     },
     {
       "code": "KGZ",
@@ -2230,7 +2301,8 @@
           "total": 61
         }
       },
-      "population": 7281800
+      "population": 7281800,
+      "alpha2": "KG"
     },
     {
       "code": "SYR",
@@ -2261,7 +2333,8 @@
           "total": 51
         }
       },
-      "population": 25620000
+      "population": 25620000,
+      "alpha2": "SY"
     },
     {
       "code": "CYP",
@@ -2292,7 +2365,8 @@
           "total": 50
         }
       },
-      "population": 1442614
+      "population": 1442614,
+      "alpha2": "CY"
     },
     {
       "code": "LUX",
@@ -2323,7 +2397,8 @@
           "total": 50
         }
       },
-      "population": 681973
+      "population": 681973,
+      "alpha2": "LU"
     },
     {
       "code": "MAR",
@@ -2354,7 +2429,8 @@
           "total": 45
         }
       },
-      "population": 36828330
+      "population": 36828330,
+      "alpha2": "MA"
     },
     {
       "code": "EGY",
@@ -2385,7 +2461,8 @@
           "total": 41
         }
       },
-      "population": 107271260
+      "population": 107271260,
+      "alpha2": "EG"
     },
     {
       "code": "PAK",
@@ -2416,7 +2493,8 @@
           "total": 34
         }
       },
-      "population": 241499431
+      "population": 241499431,
+      "alpha2": "PK"
     },
     {
       "code": "IRL",
@@ -2447,7 +2525,8 @@
           "total": 30
         }
       },
-      "population": 5458600
+      "population": 5458600,
+      "alpha2": "IE"
     },
     {
       "code": "TUN",
@@ -2478,7 +2557,8 @@
           "total": 28
         }
       },
-      "population": 11972169
+      "population": 11972169,
+      "alpha2": "TN"
     },
     {
       "code": "LKA",
@@ -2509,7 +2589,8 @@
           "total": 27
         }
       },
-      "population": 21763170
+      "population": 21763170,
+      "alpha2": "LK"
     },
     {
       "code": "CRI",
@@ -2540,7 +2621,8 @@
           "total": 24
         }
       },
-      "population": 5309625
+      "population": 5309625,
+      "alpha2": "CR"
     },
     {
       "code": "ISL",
@@ -2571,7 +2653,8 @@
           "total": 23
         }
       },
-      "population": 391810
+      "population": 391810,
+      "alpha2": "IS"
     },
     {
       "code": "DZA",
@@ -2602,7 +2685,8 @@
           "total": 15
         }
       },
-      "population": 47400000
+      "population": 47400000,
+      "alpha2": "DZ"
     },
     {
       "code": "SLV",
@@ -2633,7 +2717,8 @@
           "total": 14
         }
       },
-      "population": 6029976
+      "population": 6029976,
+      "alpha2": "SV"
     },
     {
       "code": "CHL",
@@ -2664,7 +2749,8 @@
           "total": 13
         }
       },
-      "population": 20206953
+      "population": 20206953,
+      "alpha2": "CL"
     },
     {
       "code": "ALB",
@@ -2695,7 +2781,8 @@
           "total": 13
         }
       },
-      "population": 2363314
+      "population": 2363314,
+      "alpha2": "AL"
     },
     {
       "code": "PRY",
@@ -2726,7 +2813,8 @@
           "total": 12
         }
       },
-      "population": 6109644
+      "population": 6109644,
+      "alpha2": "PY"
     },
     {
       "code": "ECU",
@@ -2757,7 +2845,8 @@
           "total": 12
         }
       },
-      "population": 18103660
+      "population": 18103660,
+      "alpha2": "EC"
     },
     {
       "code": "PRI",
@@ -2788,7 +2877,8 @@
           "total": 10
         }
       },
-      "population": 3203295
+      "population": 3203295,
+      "alpha2": "PR"
     },
     {
       "code": "TTO",
@@ -2819,7 +2909,8 @@
           "total": 10
         }
       },
-      "population": 1367764
+      "population": 1367764,
+      "alpha2": "TT"
     },
     {
       "code": "ARE",
@@ -2850,7 +2941,8 @@
           "total": 9
         }
       },
-      "population": 11294243
+      "population": 11294243,
+      "alpha2": "AE"
     },
     {
       "code": "MNE",
@@ -2881,7 +2973,8 @@
           "total": 8
         }
       },
-      "population": 623327
+      "population": 623327,
+      "alpha2": "ME"
     },
     {
       "code": "VEN",
@@ -2912,7 +3005,8 @@
           "total": 8
         }
       },
-      "population": 28517000
+      "population": 28517000,
+      "alpha2": "VE"
     },
     {
       "code": "LIE",
@@ -2943,7 +3037,8 @@
           "total": 8
         }
       },
-      "population": 40900
+      "population": 40900,
+      "alpha2": "LI"
     },
     {
       "code": "NPL",
@@ -2974,7 +3069,8 @@
           "total": 5
         }
       },
-      "population": 29911840
+      "population": 29911840,
+      "alpha2": "NP"
     },
     {
       "code": "JOR",
@@ -3005,7 +3101,8 @@
           "total": 5
         }
       },
-      "population": 11734000
+      "population": 11734000,
+      "alpha2": "JO"
     },
     {
       "code": "KHM",
@@ -3036,7 +3133,8 @@
           "total": 4
         }
       },
-      "population": 17577760
+      "population": 17577760,
+      "alpha2": "KH"
     },
     {
       "code": "NGA",
@@ -3067,7 +3165,8 @@
           "total": 3
         }
       },
-      "population": 223800000
+      "population": 223800000,
+      "alpha2": "NG"
     },
     {
       "code": "QAT",
@@ -3098,7 +3197,8 @@
           "total": 2
         }
       },
-      "population": 3173024
+      "population": 3173024,
+      "alpha2": "QA"
     },
     {
       "code": "MLT",
@@ -3129,7 +3229,8 @@
           "total": 2
         }
       },
-      "population": 574250
+      "population": 574250,
+      "alpha2": "MT"
     },
     {
       "code": "SUR",
@@ -3160,7 +3261,8 @@
           "total": 1
         }
       },
-      "population": 616500
+      "population": 616500,
+      "alpha2": "SR"
     },
     {
       "code": "PSE",
@@ -3191,7 +3293,8 @@
           "total": 1
         }
       },
-      "population": 5483450
+      "population": 5483450,
+      "alpha2": "PS"
     },
     {
       "code": "CIV",
@@ -3222,7 +3325,8 @@
           "total": 1
         }
       },
-      "population": 31719275
+      "population": 31719275,
+      "alpha2": "CI"
     },
     {
       "code": "BOL",
@@ -3253,7 +3357,8 @@
           "total": 1
         }
       },
-      "population": 11365333
+      "population": 11365333,
+      "alpha2": "BO"
     },
     {
       "code": "BRN",
@@ -3284,7 +3389,8 @@
           "total": 0
         }
       },
-      "population": 455500
+      "population": 455500,
+      "alpha2": "BH"
     },
     {
       "code": "PAN",
@@ -3315,7 +3421,8 @@
           "total": 0
         }
       },
-      "population": 4064780
+      "population": 4064780,
+      "alpha2": "PA"
     },
     {
       "code": "URY",
@@ -3346,7 +3453,8 @@
           "total": 0
         }
       },
-      "population": 3499451
+      "population": 3499451,
+      "alpha2": "UY"
     },
     {
       "code": "BFA",
@@ -3377,7 +3485,8 @@
           "total": 0
         }
       },
-      "population": 24070553
+      "population": 24070553,
+      "alpha2": "BF"
     },
     {
       "code": "BEN",
@@ -3408,7 +3517,8 @@
           "total": 0
         }
       },
-      "population": 13224860
+      "population": 13224860,
+      "alpha2": "BJ"
     },
     {
       "code": "RWA",
@@ -3439,7 +3549,8 @@
           "total": 0
         }
       },
-      "population": 14104969
+      "population": 14104969,
+      "alpha2": "RW"
     },
     {
       "code": "GMB",
@@ -3470,7 +3581,8 @@
           "total": 0
         }
       },
-      "population": 2422712
+      "population": 2422712,
+      "alpha2": "GM"
     },
     {
       "code": "ZWE",
@@ -3501,7 +3613,8 @@
           "total": 0
         }
       },
-      "population": 17073087
+      "population": 17073087,
+      "alpha2": "ZW"
     },
     {
       "code": "MDG",
@@ -3532,7 +3645,8 @@
           "total": 0
         }
       },
-      "population": 31727042
+      "population": 31727042,
+      "alpha2": "MG"
     },
     {
       "code": "MRT",
@@ -3563,7 +3677,8 @@
           "total": 0
         }
       },
-      "population": 4927532
+      "population": 4927532,
+      "alpha2": "MR"
     },
     {
       "code": "SEN",
@@ -3594,7 +3709,8 @@
           "total": 0
         }
       },
-      "population": 18593258
+      "population": 18593258,
+      "alpha2": "SN"
     },
     {
       "code": "UGA",
@@ -3625,7 +3741,8 @@
           "total": 0
         }
       },
-      "population": 45905417
+      "population": 45905417,
+      "alpha2": "UG"
     },
     {
       "code": "KSV",
@@ -3656,7 +3773,8 @@
           "total": 0
         }
       },
-      "population": 0
+      "population": 0,
+      "alpha2": "XK"
     },
     {
       "code": "GHA",
@@ -3687,7 +3805,8 @@
           "total": 0
         }
       },
-      "population": 33742380
+      "population": 33742380,
+      "alpha2": "GH"
     },
     {
       "code": "MOZ",
@@ -3718,7 +3837,8 @@
           "total": 0
         }
       },
-      "population": 34090466
+      "population": 34090466,
+      "alpha2": "MZ"
     },
     {
       "code": "KWT",
@@ -3749,7 +3869,8 @@
           "total": 0
         }
       },
-      "population": 4881254
+      "population": 4881254,
+      "alpha2": "KW"
     },
     {
       "code": "DOM",
@@ -3780,7 +3901,8 @@
           "total": 0
         }
       },
-      "population": 10771504
+      "population": 10771504,
+      "alpha2": "DO"
     },
     {
       "code": "BWA",
@@ -3811,7 +3933,8 @@
           "total": 0
         }
       },
-      "population": 2359609
+      "population": 2359609,
+      "alpha2": "BW"
     },
     {
       "code": "LBY",
@@ -3842,7 +3965,8 @@
           "total": 0
         }
       },
-      "population": 7459000
+      "population": 7459000,
+      "alpha2": "LY"
     },
     {
       "code": "MUS",
@@ -3873,7 +3997,8 @@
           "total": 0
         }
       },
-      "population": 1243741
+      "population": 1243741,
+      "alpha2": "MU"
     },
     {
       "code": "GTM",
@@ -3904,7 +4029,8 @@
           "total": 0
         }
       },
-      "population": 18079810
+      "population": 18079810,
+      "alpha2": "GT"
     },
     {
       "code": "MMR",
@@ -3935,7 +4061,8 @@
           "total": 0
         }
       },
-      "population": 51316756
+      "population": 51316756,
+      "alpha2": "MM"
     },
     {
       "code": "IRQ",
@@ -3966,7 +4093,8 @@
           "total": 0
         }
       },
-      "population": 46118793
+      "population": 46118793,
+      "alpha2": "IQ"
     },
     {
       "code": "AFG",
@@ -3997,7 +4125,8 @@
           "total": 0
         }
       },
-      "population": 43844000
+      "population": 43844000,
+      "alpha2": "AF"
     },
     {
       "code": "GAB",
@@ -4028,7 +4157,8 @@
           "total": 0
         }
       },
-      "population": 2469296
+      "population": 2469296,
+      "alpha2": "GA"
     },
     {
       "code": "TZA",
@@ -4059,7 +4189,8 @@
           "total": 0
         }
       },
-      "population": 68153004
+      "population": 68153004,
+      "alpha2": "TZ"
     },
     {
       "code": "BHR",
@@ -4090,7 +4221,8 @@
           "total": 0
         }
       },
-      "population": 1594654
+      "population": 1594654,
+      "alpha2": "BH"
     },
     {
       "code": "NIC",
@@ -4121,7 +4253,8 @@
           "total": 0
         }
       },
-      "population": 6803886
+      "population": 6803886,
+      "alpha2": "NI"
     },
     {
       "code": "HND",
@@ -4152,7 +4285,8 @@
           "total": 0
         }
       },
-      "population": 9892632
+      "population": 9892632,
+      "alpha2": "HN"
     }
   ],
   "metadata": {

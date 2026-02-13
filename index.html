@@ -7,6 +7,31 @@
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <style>
+        :root {
+            --primary: #1a1a2e;
+            --primary-light: #2a2a4e;
+            --secondary: #f8f9fa;
+            --text-primary: #212529;
+            --text-secondary: #6c757d;
+            --success: #28a745;
+            --info: #17a2b8;
+            --accent-gold: #FFD700;
+            --accent-silver: #C0C0C0;
+            --accent-bronze: #CD7F32;
+            --gradient-primary: linear-gradient(135deg, #1a1a2e 0%, #2a2a4e 100%);
+            --gradient-btn: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.1);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.2);
+            --glass-bg: rgba(255,255,255,0.85);
+            --glass-blur: 10px;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --radius-pill: 20px;
+            --transition: all 0.3s ease;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -15,186 +40,384 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--secondary);
         }
 
         header {
-            background: #1a1a2e;
+            background: var(--gradient-primary);
             color: white;
             padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            box-shadow: var(--shadow-lg);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
         }
 
         h1 {
             font-size: 1.5rem;
             font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h1::before {
+            content: '🏆';
         }
 
         .controls {
-            margin-top: 0.5rem;
             display: flex;
             align-items: center;
             gap: 1rem;
             flex-wrap: wrap;
         }
 
-        .controls label {
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        .controls select {
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            border: 1px solid #ddd;
-            background: white;
-            font-size: 0.9rem;
-            cursor: pointer;
-        }
-
-        .toggle-container {
+        .control-group {
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
 
-        .toggle-container label {
-            font-size: 0.9rem;
+        .control-group label {
+            font-size: 0.875rem;
             font-weight: 500;
+            color: rgba(255,255,255,0.9);
+        }
+
+        select {
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.1);
+            color: white;
+            font-size: 0.875rem;
             cursor: pointer;
+            transition: var(--transition);
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 0.5rem center;
+            padding-right: 2rem;
+            min-width: 250px;
+        }
+
+        select:hover, select:focus {
+            background-color: rgba(255,255,255,0.15);
+            outline: none;
+        }
+
+        select option {
+            background: var(--primary);
+            color: white;
         }
 
         .toggle-switch {
             position: relative;
-            width: 44px;
-            height: 24px;
-            background: #ccc;
-            border-radius: 12px;
+            width: 48px;
+            height: 26px;
+            background: rgba(255,255,255,0.2);
+            border-radius: var(--radius-pill);
             cursor: pointer;
-            transition: background 0.3s;
+            transition: var(--transition);
         }
 
         .toggle-switch.active {
-            background: #2196F3;
+            background: var(--success);
         }
 
         .toggle-switch::after {
             content: '';
             position: absolute;
-            top: 2px;
-            left: 2px;
+            top: 3px;
+            left: 3px;
             width: 20px;
             height: 20px;
             background: white;
             border-radius: 50%;
-            transition: transform 0.3s;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            transition: var(--transition);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         }
 
         .toggle-switch.active::after {
-            transform: translateX(20px);
+            transform: translateX(22px);
+        }
+
+        .search-container {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.5rem 1rem 0.5rem 2.5rem;
+            border-radius: var(--radius-pill);
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.1);
+            color: white;
+            font-size: 0.875rem;
+            transition: var(--transition);
+        }
+
+        .search-input::placeholder {
+            color: rgba(255,255,255,0.6);
+        }
+
+        .search-input:focus {
+            background: rgba(255,255,255,0.15);
+            outline: none;
+            border-color: rgba(255,255,255,0.3);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: rgba(255,255,255,0.6);
+            font-size: 0.875rem;
         }
 
         #map-container {
-            height: calc(100vh - 120px);
+            height: calc(100vh - 160px);
             width: 100%;
         }
 
-        .info {
-            padding: 6px 8px;
-            font: 14px/16px Arial, Helvetica, sans-serif;
-            background: white;
-            background: rgba(255,255,255,0.9);
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            border-radius: 5px;
+        .popup-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(var(--glass-blur));
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            min-width: 280px;
         }
 
-        .info h4 {
-            margin: 0 0 5px;
-            color: #333;
-        }
-
-        .info h5 {
-            margin: 0 0 5px;
-            font-size: 12px;
-            color: #666;
-            text-transform: uppercase;
-        }
-
-        .medal-breakdown {
-            margin-top: 10px;
-            padding-top: 10px;
-            border-top: 1px solid #ddd;
-        }
-
-        .medal-breakdown .medal-type {
+        .popup-header {
+            padding: 1rem;
+            background: var(--gradient-primary);
+            color: white;
             display: flex;
-            justify-content: space-between;
-            margin-bottom: 5px;
-            font-size: 13px;
+            align-items: center;
+            gap: 0.75rem;
         }
 
-        .medal-breakdown .medal-type .label {
-            font-weight: 500;
+        .country-flag {
+            font-size: 2rem;
         }
 
-        .medal-breakdown .medal-type .count {
+        .country-name {
+            flex: 1;
             font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .ranking-badge {
+            background: var(--accent-gold);
+            color: var(--primary);
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .popup-content {
+            padding: 1rem;
+        }
+
+        .total-medals {
+            margin-bottom: 1rem;
+        }
+
+        .medal-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-pill);
+            font-weight: 600;
+            font-size: 0.875rem;
+            background: var(--gradient-primary);
+            color: white;
+        }
+
+        .medal-badge.total {
+            background: var(--gradient-btn);
+        }
+
+        .olympiad-sections {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
         }
 
         .olympiad-section {
-            margin-bottom: 8px;
-            padding: 5px;
             background: rgba(0,0,0,0.03);
-            border-radius: 3px;
+            border-radius: var(--radius-sm);
+            padding: 0.75rem;
         }
 
-        .olympiad-section h5 {
-            margin: 0 0 5px;
-            font-size: 12px;
-            color: #666;
+        .olympiad-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .olympiad-title {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--text-primary);
             text-transform: uppercase;
         }
 
-        .total-badge {
-            background: #1a1a2e;
-            color: white;
-            padding: 3px 8px;
-            border-radius: 3px;
+        .olympiad-rank {
+            background: var(--accent-silver);
+            color: var(--primary);
+            padding: 0.125rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
             font-weight: 600;
-            font-size: 12px;
-            display: inline-block;
-            margin-top: 5px;
+        }
+
+        .medal-breakdown {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0.5rem;
+        }
+
+        .medal-item {
+            text-align: center;
+            padding: 0.5rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .medal-item.gold {
+            background: rgba(255, 215, 0, 0.1);
+        }
+
+        .medal-item.silver {
+            background: rgba(192, 192, 192, 0.1);
+        }
+
+        .medal-item.bronze {
+            background: rgba(205, 127, 50, 0.1);
+        }
+
+        .medal-item .medal-icon {
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .medal-item .medal-count {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text-primary);
+        }
+
+        .medal-item .medal-label {
+            font-size: 0.625rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+
+        .view-results {
+            border-top: 1px solid rgba(0,0,0,0.1);
+            padding-top: 1rem;
+        }
+
+        .view-results-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            margin-bottom: 0.75rem;
+        }
+
+        .results-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .result-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-pill);
+            background: var(--gradient-btn);
+            color: white !important;
+            text-decoration: none !important;
+            font-size: 0.8125rem;
+            font-weight: 500;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .result-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .result-btn::after {
+            content: '↗';
+            font-size: 0.75rem;
         }
 
         .legend {
-            line-height: 18px;
-            color: #555;
-            background: white;
-            background: rgba(255,255,255,0.9);
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background: var(--glass-bg);
+            backdrop-filter: blur(var(--glass-blur));
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+        }
+
+        .legend-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
         }
 
         .legend-gradient {
             width: 180px;
             height: 30px;
-            background: linear-gradient(to right, hsl(140, 80%, 95%), hsl(140, 80%, 20%));
-            border: 2px solid #ccc;
-            border-radius: 4px;
+            border: 2px solid rgba(0,0,0,0.1);
+            border-radius: var(--radius-sm);
             position: relative;
+            background: linear-gradient(to right, hsl(140, 80%, 95%), hsl(140, 80%, 20%));
+        }
+
+        .legend-gradient.per-capita {
+            background: linear-gradient(to right, hsl(220, 80%, 95%), hsl(220, 80%, 20%));
         }
 
         .legend-label {
             position: absolute;
             left: 0;
+            top: 0;
             width: 100%;
             height: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 8px;
-            font-size: 11px;
+            padding: 0 0.5rem;
+            font-size: 0.75rem;
             font-weight: 600;
         }
 
@@ -202,27 +425,92 @@
             color: white;
         }
 
+        .legend-value {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        .no-data {
+            background: var(--glass-bg);
+            backdrop-filter: blur(var(--glass-blur));
+            padding: 1rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            font-size: 0.875rem;
+            color: var(--text-primary);
+        }
+
         @media (max-width: 768px) {
+            header {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.25rem;
+            }
+
+            .header-top {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .controls {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .control-group {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            select {
+                flex: 1;
+                min-width: auto;
+            }
+
+            .search-container {
+                max-width: none;
+                width: 100%;
+            }
+
             #map-container {
-                height: calc(100vh - 160px);
+                height: calc(100vh - 220px);
+            }
+
+            .popup-card {
+                min-width: 260px;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>International Olympiad Medals Visualization</h1>
-        <div class="controls">
-            <label for="olympiad-select">Select Olympiad:</label>
-            <select id="olympiad-select">
-                <option value="combined">All Olympiads (IMO + IOI + IPhO)</option>
-                <option value="IMO">IMO - Mathematical Olympiad</option>
-                <option value="IOI">IOI - Informatics Olympiad</option>
-                <option value="IPhO">IPhO - Physics Olympiad</option>
-            </select>
-            <div class="toggle-container">
-                <label for="per-capita-toggle">Show per capita</label>
-                <div id="per-capita-toggle" class="toggle-switch"></div>
+        <div class="header-content">
+            <div class="header-top">
+                <h1>Olympiad Medals</h1>
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="olympiad-select">Olympiad:</label>
+                        <select id="olympiad-select">
+                            <option value="combined">All Olympiads (IMO + IOI + IPhO)</option>
+                            <option value="IMO">IMO - Mathematical Olympiad</option>
+                            <option value="IOI">IOI - Informatics Olympiad</option>
+                            <option value="IPhO">IPhO - Physics Olympiad</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="per-capita-toggle">Per capita</label>
+                        <div id="per-capita-toggle" class="toggle-switch"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="search-input" class="search-input" placeholder="Search countries...">
+                </div>
             </div>
         </div>
     </header>
@@ -236,15 +524,46 @@
         let geojsonLayer;
         let map;
         let showPerCapita = false;
+        let rankings = {};
 
-        // Fetch medals data
+        const OLYMPIAD_URLS = {
+            IMO: 'https://en.wikipedia.org/wiki/List_of_countries_by_medal_count_at_International_Mathematical_Olympiad',
+            IOI: 'https://stats.ioinformatics.org/countries/?sort=medals_desc',
+            IPhO: 'http://ipho-unofficial.org/countries/'
+        };
+
+        function getFlagEmoji(alpha2Code) {
+            const codePoints = alpha2Code
+                .toUpperCase()
+                .split('')
+                .map(char => 127397 + char.charCodeAt(0));
+            return String.fromCodePoint(...codePoints);
+        }
+
+        function calculateRankings(olympiad) {
+            const sortedCountries = medalsData.countries
+                .filter(c => c.medals[olympiad]?.total > 0)
+                .sort((a, b) => b.medals[olympiad].total - a.medals[olympiad].total);
+
+            const rankMap = {};
+            sortedCountries.forEach((country, index) => {
+                rankMap[country.code] = index + 1;
+            });
+            return rankMap;
+        }
+
         function loadMedalsData() {
             fetch('medals.json')
                 .then(response => response.json())
                 .then(data => {
                     medalsData = data;
                     console.log('Medals data loaded:', data.countries.length + ' countries');
-                    // After data loads, initialize map
+                    rankings = {
+                        IMO: calculateRankings('IMO'),
+                        IOI: calculateRankings('IOI'),
+                        IPhO: calculateRankings('IPhO'),
+                        combined: calculateRankings('combined')
+                    };
                     if (!map) {
                         initializeMap();
                     }
@@ -255,46 +574,37 @@
                 });
         }
 
-        // Initialize map after data is loaded
         function initializeMap() {
             map = L.map('map-container').setView([20, 0], 2);
 
-            // Add OpenStreetMap tiles
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                 maxZoom: 19
             }).addTo(map);
 
-            // Load GeoJSON and create legend
             loadGeoJSON();
             createLegend();
         }
 
-        // Color scale function with dynamic gradient (green for total medals)
         function getColor(medalCount, maxValue) {
             if (medalCount === 0) return '#f7f7f7';
-
             const percentage = Math.min(medalCount / maxValue, 1);
             const lightness = 95 - (percentage * 75);
             return `hsl(140, 80%, ${lightness}%)`;
         }
 
-        // Color scale function with dynamic gradient (blue for per capita)
         function getBlueColor(value, maxValue) {
             if (value === 0) return '#f7f7f7';
-
             const percentage = Math.min(value / maxValue, 1);
             const lightness = 95 - (percentage * 75);
             return `hsl(220, 80%, ${lightness}%)`;
         }
 
-        // Calculate medals per million people
         function calculatePerCapita(medalCount, population) {
             if (!population || population === 0) return 0;
             return (medalCount / population) * 1000000;
         }
 
-        // Style function for GeoJSON features
         function style(feature) {
             const countryCode = feature.id;
             const country = medalsData.countries.find(c => c.code === countryCode);
@@ -341,7 +651,6 @@
             };
         }
 
-        // Highlight function on hover
         function highlightFeature(e) {
             const layer = e.target;
             layer.setStyle({
@@ -353,46 +662,56 @@
             layer.bringToFront();
         }
 
-        // Reset highlight
         function resetHighlight(e) {
             geojsonLayer.resetStyle(e.target);
         }
 
-        // Create popup content
         function createPopupContent(feature) {
             const countryCode = feature.id;
             const country = medalsData.countries.find(c => c.code === countryCode);
 
             if (!country) {
-                return `<div class="info"><h4>${feature.properties.name || 'Unknown'}</h4><p>No medal data available</p></div>`;
+                return `<div class="popup-card"><div class="popup-content"><div class="no-data"><strong>${feature.properties.name || 'Unknown'}</strong><br>No medal data available</div></div></div>`;
             }
 
             const medals = country.medals[currentOlympiad] || country.medals.combined;
+            const flag = getFlagEmoji(country.alpha2);
+            const rank = rankings[currentOlympiad][country.code] || '-';
 
-            let content = `<div class="info">`;
-            content += `<h4>${country.name}</h4>`;
+            let content = `<div class="popup-card">`;
+            content += `<div class="popup-header">`;
+            content += `<span class="country-flag">${flag}</span>`;
+            content += `<span class="country-name">${country.name}</span>`;
+            content += `<span class="ranking-badge">#${rank}</span>`;
+            content += `</div>`;
 
+            content += `<div class="popup-content">`;
+            content += `<div class="total-medals">`;
+            
             if (showPerCapita && country.population && country.population > 0) {
                 const perCapita = calculatePerCapita(medals.total, country.population);
-                content += `<div class="total-badge">${perCapita.toFixed(1)} Medals per Million</div>`;
+                content += `<div class="medal-badge total">${perCapita.toFixed(1)} Medals/Million</div>`;
             } else {
-                content += `<div class="total-badge">${medals.total} Total Medals</div>`;
+                content += `<div class="medal-badge total">${medals.total} Total Medals</div>`;
             }
+            
+            content += `</div>`;
 
+            content += `<div class="olympiad-sections">`;
             const olympiads = ['IMO', 'IOI', 'IPhO'];
             olympiads.forEach(olympiad => {
                 if (country.medals[olympiad] && country.medals[olympiad].total > 0) {
                     const m = country.medals[olympiad];
+                    const olympiadRank = rankings[olympiad][country.code] || '-';
                     content += `<div class="olympiad-section">`;
-                    content += `<h5>${olympiad}</h5>`;
+                    content += `<div class="olympiad-header">`;
+                    content += `<span class="olympiad-title">${olympiad}</span>`;
+                    content += `<span class="olympiad-rank">#${olympiadRank}</span>`;
+                    content += `</div>`;
                     content += `<div class="medal-breakdown">`;
-                    content += `<div class="medal-type"><span class="label">Gold:</span><span class="count">${m.gold}</span></div>`;
-                    content += `<div class="medal-type"><span class="label">Silver:</span><span class="count">${m.silver}</span></div>`;
-                    content += `<div class="medal-type"><span class="label">Bronze:</span><span class="count">${m.bronze}</span></div>`;
-                    if (showPerCapita && country.population && country.population > 0) {
-                        const perCapita = calculatePerCapita(m.total, country.population);
-                        content += `<div class="medal-type" style="margin-top: 5px; color: #2196F3;"><span class="label">Per Million:</span><span class="count">${perCapita.toFixed(1)}</span></div>`;
-                    }
+                    content += `<div class="medal-item gold"><div class="medal-icon">🥇</div><div class="medal-count">${m.gold}</div><div class="medal-label">Gold</div></div>`;
+                    content += `<div class="medal-item silver"><div class="medal-icon">🥈</div><div class="medal-count">${m.silver}</div><div class="medal-label">Silver</div></div>`;
+                    content += `<div class="medal-item bronze"><div class="medal-icon">🥉</div><div class="medal-count">${m.bronze}</div><div class="medal-label">Bronze</div></div>`;
                     content += `</div></div>`;
                 }
             });
@@ -400,30 +719,39 @@
             if (currentOlympiad === 'combined') {
                 const m = country.medals.combined;
                 content += `<div class="olympiad-section" style="background: rgba(0,0,0,0.05);">`;
-                content += `<h5>Combined</h5>`;
+                content += `<div class="olympiad-header">`;
+                content += `<span class="olympiad-title">Combined</span>`;
+                content += `<span class="olympiad-rank">#${rankings.combined[country.code] || '-'}</span>`;
+                content += `</div>`;
                 content += `<div class="medal-breakdown">`;
-                content += `<div class="medal-type"><span class="label">Gold:</span><span class="count">${m.gold}</span></div>`;
-                content += `<div class="medal-type"><span class="label">Silver:</span><span class="count">${m.silver}</span></div>`;
-                content += `<div class="medal-type"><span class="label">Bronze:</span><span class="count">${m.bronze}</span></div>`;
-                if (showPerCapita && country.population && country.population > 0) {
-                    const perCapita = calculatePerCapita(m.total, country.population);
-                    content += `<div class="medal-type" style="margin-top: 5px; color: #2196F3;"><span class="label">Per Million:</span><span class="count">${perCapita.toFixed(1)}</span></div>`;
-                }
+                content += `<div class="medal-item gold"><div class="medal-icon">🥇</div><div class="medal-count">${m.gold}</div><div class="medal-label">Gold</div></div>`;
+                content += `<div class="medal-item silver"><div class="medal-icon">🥈</div><div class="medal-count">${m.silver}</div><div class="medal-label">Silver</div></div>`;
+                content += `<div class="medal-item bronze"><div class="medal-icon">🥉</div><div class="medal-count">${m.bronze}</div><div class="medal-label">Bronze</div></div>`;
                 content += `</div></div>`;
             }
 
             content += `</div>`;
+
+            content += `<div class="view-results">`;
+            content += `<div class="view-results-title">View Official Results</div>`;
+            content += `<div class="results-buttons">`;
+            content += `<a href="${OLYMPIAD_URLS.IMO}" target="_blank" class="result-btn">IMO Results</a>`;
+            content += `<a href="${OLYMPIAD_URLS.IOI}" target="_blank" class="result-btn">IOI Results</a>`;
+            content += `<a href="${OLYMPIAD_URLS.IPhO}" target="_blank" class="result-btn">IPhO Results</a>`;
+            content += `</div></div>`;
+
+            content += `</div>`;
+            content += `</div>`;
+
             return content;
         }
 
-        // Update GeoJSON styling without reloading
         function updateGeoJSONStyle() {
             if (geojsonLayer) {
                 geojsonLayer.setStyle(style);
             }
         }
 
-        // Load and display GeoJSON
         function loadGeoJSON() {
             fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
                 .then(response => response.json())
@@ -436,7 +764,10 @@
                                 mouseout: resetHighlight,
                                 click: function(e) {
                                     const popupContent = createPopupContent(feature);
-                                    L.popup()
+                                    L.popup({
+                                        maxWidth: 320,
+                                        className: 'custom-popup'
+                                    })
                                         .setLatLng(e.latlng)
                                         .setContent(popupContent)
                                         .openOn(map);
@@ -450,7 +781,6 @@
                 });
         }
 
-        // Create legend
         function createLegend() {
             if (window.legendControl) {
                 map.removeControl(window.legendControl);
@@ -484,20 +814,18 @@
             const legend = L.control({position: 'bottomright'});
             window.legendControl = legend;
 
+            const maxLabel = showPerCapita ? maxValue.toFixed(1) : maxValue;
+
             legend.onAdd = function(map) {
                 const div = L.DomUtil.create('div', 'info legend');
 
-                const maxLabel = showPerCapita ? maxValue.toFixed(1) : maxValue;
-
                 div.innerHTML = `
-                    <div class="legend-gradient" style="background: ${gradientColor};">
+                    <div class="legend-title">${label}</div>
+                    <div class="legend-gradient ${showPerCapita ? 'per-capita' : ''}" style="background: ${gradientColor};">
                         <div class="legend-label">
                             <span>0</span>
                             <span class="legend-max-label">${maxLabel}</span>
                         </div>
-                    </div>
-                    <div style="font-size: 11px; margin-top: 5px; color: #555;">
-                        ${label}
                     </div>
                 `;
 
@@ -507,14 +835,56 @@
             legend.addTo(map);
         }
 
-        // Handle Olympiad selection
+        function searchCountries(query) {
+            const searchTerm = query.toLowerCase().trim();
+            
+            if (!searchTerm) {
+                geojsonLayer.resetStyle();
+                return;
+            }
+
+            geojsonLayer.eachLayer(function(layer) {
+                const countryCode = layer.feature.id;
+                const country = medalsData.countries.find(c => c.code === countryCode);
+                
+                if (country) {
+                    const matches = country.name.toLowerCase().includes(searchTerm) ||
+                                   country.code.toLowerCase().includes(searchTerm);
+                    
+                    if (matches) {
+                        layer.setStyle({
+                            weight: 4,
+                            color: '#FFD700',
+                            dashArray: '',
+                            fillOpacity: 0.9
+                        });
+                        layer.bringToFront();
+                    } else {
+                        layer.setStyle({
+                            weight: 1,
+                            color: 'white',
+                            dashArray: '2',
+                            fillOpacity: 0.4
+                        });
+                    }
+                }
+            });
+        }
+
+        let searchTimeout;
+        document.getElementById('search-input').addEventListener('input', function(e) {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                searchCountries(e.target.value);
+            }, 300);
+        });
+
         document.getElementById('olympiad-select').addEventListener('change', function(e) {
             currentOlympiad = e.target.value;
             updateGeoJSONStyle();
             createLegend();
         });
 
-        // Handle per capita toggle
         document.getElementById('per-capita-toggle').addEventListener('click', function() {
             showPerCapita = !showPerCapita;
             this.classList.toggle('active', showPerCapita);
@@ -522,7 +892,6 @@
             createLegend();
         });
 
-        // Load medals data and then initialize map
         loadMedalsData();
     </script>
 </body>
