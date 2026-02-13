@@ -39,15 +39,6 @@ uv run python scrape_data.py
 
 This will update `medals.json` with the latest data. The `index.html` file fetches this file on page load, so there's no need to redeploy anything - just refresh the page!
 
-## Deployment to GitHub Pages
-
-1. Create a new GitHub repository
-2. Push these files to repository
-3. Enable GitHub Pages:
-   - Go to repository Settings → Pages
-   - Set source to `main` branch, root folder
-4. Access your site at: `https://yourusername.github.io/repository-name`
-
 ## Technical Details
 
 - **Frontend**: Pure HTML/CSS/JavaScript (no build tools required)
@@ -73,7 +64,3 @@ medals/
 - Only includes current countries (historical countries like Soviet Union, Yugoslavia are excluded)
 - Medal counts are cumulative from each Olympiad's inception through 2025
 - Medal types (Gold, Silver, Bronze) are weighted equally for total counts
-
-## License
-
-This project is open source and available for educational purposes.
